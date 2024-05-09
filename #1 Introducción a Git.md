@@ -1,0 +1,66 @@
+# **_Introducción a Git_**
+
+> _Git es un sistema de control de versiones distribuido, lo que significa que cada desarrollador tiene una copia completa del historial del proyecto en su máquina local. Esto permite un alto grado de flexibilidad y eficiencia en el trabajo colaborativo._
+
+- <kbd>Fue creado por Linus Torvalds, el creador de Linux.</kbd>
+
+> Para instalar Git, puedes seguir los siguientes pasos dependiendo de tu sistema operativo:
+
+**En Windows:**
+
+1. _Descarga el instalador de Git desde [la página oficial de Git](https://git-scm.com/download/win)._
+
+2. _Ejecuta el archivo descargado y sigue las instrucciones del instalador._
+
+**En macOS:**
+
+1. Abre la Terminal.
+2. Ejecuta el siguiente comando: `brew install git`.
+
+**En Linux:**
+
+1. Abre la Terminal.
+2. Ejecuta el siguiente comando: `sudo apt-get install git`.
+
+## _**Comandos básicos de Git**_
+
+Aquí hay algunos comandos básicos de Git que puedes encontrar útiles:
+
+- _`git init`: Inicializa un nuevo repositorio Git en tu directorio actual._
+
+- _`git clone [url]`: Clona un repositorio Git existente._
+
+- _`git add [archivo]`: Agrega un archivo al área de preparación de Git._
+
+- _`git commit -m "[mensaje]"` o `git commit --message= "[mensaje]"`: Crea un nuevo commit con los cambios que has agregado al área de preparación._
+
+- _`git push [remoto] [rama]`: Empuja tus commits al repositorio remoto._
+
+```bash
+# Ejemplo de uso de comandos Git
+git init
+```
+
+```bash
+# Ejemplo de uso de comandos Git
+git add README.md
+```
+
+```bash
+# Ejemplo de uso de comandos Git
+git commit -m "Añadir README"
+```
+
+```bash
+# Ejemplo de uso de comandos Git
+git commit --message="Añadir README"
+```
+
+```bash
+# Ejemplo de uso de comandos Git
+git push origin master
+```
+
+## _**Enlaces útiles**_
+
+- [_Documentación oficial de Git_](https://git-scm.com/doc "https://git-scm.com/doc")
