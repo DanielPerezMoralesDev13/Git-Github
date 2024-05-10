@@ -1,49 +1,49 @@
 <!-- Autor: Daniel Benjamin Perez Morales -->
 <!-- GitHub: https://github.com/DanielPerezMoralesDev13 -->
 <!-- Correo electrónico: danielperezdev@proton.me  -->
-# ***Guía de Git y GitHub***
+# ***Git and GitHub Guide***
 
-*¡Bienvenido a la guía de Git y GitHub!*
+*Welcome to the Git and GitHub guide!*
 
-> *Este repositorio contiene una guía detallada sobre cómo comenzar con Git y GitHub, así como consejos y mejores prácticas para utilizar estas herramientas de control de versiones de manera efectiva en tus proyectos de desarrollo de software.*
+> *This repository contains a detailed guide on how to get started with Git and GitHub, as well as tips and best practices for effectively using these version control tools in your software development projects.*
 
-## ***Contenido***
+## ***Content***
 
-- **Introducción a Git**
-  - *¿Qué es Git?*
-  - *Instalación de Git*
-  - *Configuración inicial*
-- **Fundamentos de Git**
-  - *Iniciar un repositorio*
-  - *Realizar commits*
-  - *Ramas (branches) en Git*
-  - *Fusionar ramas (merge)*
-- **Colaboración con GitHub**
-  - *Crear un repositorio en GitHub*
-  - *Clonar un repositorio*
-  - *Trabajar con repositorios remotos*
-  - *Pull Requests y revisión de código*
-- **Flujo de trabajo avanzado**
-  - *Etiquetas (tags)*
-  - *Revertir cambios*
+- **Introduction to Git**
+  - *What is Git?*
+  - *Installing Git*
+  - *Initial setup*
+- **Git Fundamentals**
+  - *Initializing a repository*
+  - *Making commits*
+  - *Branches in Git*
+  - *Merging branches*
+- **Collaborating with GitHub**
+  - *Creating a repository on GitHub*
+  - *Cloning a repository*
+  - *Working with remote repositories*
+  - *Pull Requests and code review*
+- **Advanced Workflow**
+  - *Tags*
+  - *Reverting changes*
   - *Git rebase*
-- **Mejores prácticas y consejos**
-  - *Organización de repositorios*
-  - *Escribir mensajes de commit significativos*
-  - *Evitar conflictos*
-- **Recursos adicionales**
-  - *Enlaces útiles*
-  - *Herramientas complementarias*
-  - *Libros y tutoriales recomendados*
+- **Best Practices and Tips**
+  - *Repository organization*
+  - *Writing meaningful commit messages*
+  - *Avoiding conflicts*
+- **Additional Resources**
+  - *Useful links*
+  - *Complementary tools*
+  - *Recommended books and tutorials*
 
-## ***Uso***
+## ***Usage***
 
-> *Para acceder a la guía, simplemente navega por los diferentes directorios y archivos Markdown en este repositorio. Cada sección está organizada de manera lógica y contiene información clara y concisa para ayudarte a comprender y utilizar Git y GitHub de manera efectiva.*
+> *To access the guide, simply navigate through the different directories and Markdown files in this repository. Each section is logically organized and contains clear and concise information to help you understand and effectively use Git and GitHub.*
 
-## ***Contribuciones***
+## ***Contributions***
 
-*¡Las contribuciones son bienvenidas! Si tienes sugerencias, correcciones o mejoras para esta guía, siéntete libre de abrir un problema o enviar una solicitud de extracción. Tu participación es fundamental para mejorar esta guía y hacerla más útil para la comunidad de desarrollo.*
+*Contributions are welcome! If you have suggestions, corrections, or improvements for this guide, feel free to open an issue or submit a pull request. Your participation is essential to improve this guide and make it more useful for the development community.*
 
-## ***Licencia***
+## ***License***
 
-*Este repositorio está bajo la Licencia [MIT](LICENSE).*
+*This repository is under the [MIT License](LICENSE).*
