@@ -44,6 +44,6 @@
 
 *Contributions are welcome! If you have suggestions, corrections, or improvements for this guide, feel free to open an issue or submit a pull request. Your participation is essential to improve this guide and make it more useful for the development community.*
 
-## ***License***
+## **License**
 
-*This repository is under the [MIT License](LICENSE).*
+> This repository is published under the MIT License. Feel free to use, modify, and distribute the content according to the terms of this license.
