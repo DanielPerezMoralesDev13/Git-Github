@@ -1,4 +1,3 @@
-
 <!-- Autor: Daniel Benjamin Perez Morales -->
 <!-- GitHub: https://github.com/DanielPerezMoralesDev13 -->
 <!-- Correo electrónico: danielperezdev@proton.me  -->
@@ -45,6 +44,6 @@
 
 *¡Las contribuciones son bienvenidas! Si tienes sugerencias, correcciones o mejoras para esta guía, siéntete libre de abrir un problema o enviar una solicitud de extracción. Tu participación es fundamental para mejorar esta guía y hacerla más útil para la comunidad de desarrollo.*
 
-## ***Licencia***
+## **Licencia**
 
-*Este repositorio está bajo la Licencia [MIT](LICENSE).*
+> Este repositorio se publica bajo la Licencia MIT. Siéntete libre de utilizar, modificar y distribuir el contenido de acuerdo con los términos de esta licencia.
