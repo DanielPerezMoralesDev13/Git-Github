@@ -1,7 +1,10 @@
 <!-- Autor: Daniel Benjamin Perez Morales -->
 <!-- GitHub: https://github.com/DanielPerezMoralesDev13 -->
-<!-- Correo electrónico: danielperezdev@proton.me  -->
+<!-- Correo electrónico: danielperezdev@proton.me -->
+
 # ***Instalación de Git***
+
+---
 
 ## ***Instalación en Windows***
 
@@ -12,6 +15,8 @@
 ```bash
 # No hay comandos de terminal necesarios para la instalación en Windows
 ```
+
+---
 
 ## ***Instalación en macOS***
 
@@ -29,11 +34,13 @@ brew install git
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
+---
+
 ## ***Instalación en Linux***
 
 1. *Abre la Terminal.*
 
-   1. <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>t</kbd>
+   1. `<kbd>`Ctrl</kbd>+`<kbd>`Alt</kbd>+`<kbd>`t</kbd>
 2. *Instalacion en distribución de Linux Ubuntu.*
 
 **Para distribuciones basadas en Debian (como Ubuntu y Arch Linux):**
@@ -50,7 +57,9 @@ sudo pacman -Syu git
 
 > **Nota:** *Es posible que necesites introducir tu contraseña para autorizar la instalación.*
 
-## **Verificación de la instalación**
+---
+
+## ***Verificación de la instalación***
 
 *Para verificar que Git se ha instalado correctamente, se usa el siguiente comando:*
 
@@ -60,6 +69,8 @@ git --version
 
 > *Este comando debería devolver la versión de Git que has instalado.*
 
-## **Enlaces útiles**
+---
+
+## ***Enlaces útiles***
 
 - [*Documentación oficial de Git*](https://git-scm.com/doc "https://git-scm.com/doc")

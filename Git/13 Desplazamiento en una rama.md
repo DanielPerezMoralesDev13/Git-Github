@@ -1,6 +1,7 @@
 <!-- Autor: Daniel Benjamin Perez Morales -->
 <!-- GitHub: https://github.com/DanielPerezMoralesDev13 -->
-<!-- Correo electrónico: danielperezdev@proton.me  -->
+<!-- Correo electrónico: danielperezdev@proton.me -->
+
 # ***"Desplazamiento en una rama"***
 
 > *El desplazamiento en una rama en Git se refiere a cambiar la referencia de la rama actual a un commit específico en esa rama. Esto significa que, después del desplazamiento, la rama apuntará al commit al que te has movido.*

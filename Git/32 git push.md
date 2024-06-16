@@ -1,6 +1,7 @@
 <!-- Autor: Daniel Benjamin Perez Morales -->
 <!-- GitHub: https://github.com/DanielPerezMoralesDev13 -->
-<!-- Correo electrónico: danielperezdev@proton.me  -->
+<!-- Correo electrónico: danielperezdev@proton.me -->
+
 # ***"git push"***
 
 > *El comando `git push` se utiliza para enviar los cambios locales que has realizado en tu repositorio Git a un repositorio remoto, como GitHub, GitLab o Bitbucket. Aquí tienes cómo usar `git push`:*

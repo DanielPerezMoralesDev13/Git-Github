@@ -1,6 +1,7 @@
 <!-- Autor: Daniel Benjamin Perez Morales -->
 <!-- GitHub: https://github.com/DanielPerezMoralesDev13 -->
-<!-- Correo electrónico: danielperezdev@proton.me  -->
+<!-- Correo electrónico: danielperezdev@proton.me -->
+
 # ***"git fetch" y "git pull"***
 
 > *`git fetch` y `git pull` son dos comandos relacionados con la obtención de cambios desde un repositorio remoto, pero tienen algunas diferencias clave en cuanto a su funcionamiento.*
@@ -15,6 +16,8 @@
 
 - *Te permite revisar los cambios antes de fusionarlos manualmente.*
 
+---
+
 ### ***`git pull`:***
 
 - *El comando `git pull` realiza dos acciones en una: primero, realiza un `git fetch` para obtener los últimos cambios del repositorio remoto, y luego realiza un `git merge` para fusionar automáticamente esos cambios en tu rama local.*
@@ -22,6 +25,8 @@
 - *Es una forma rápida de obtener los últimos cambios del repositorio remoto y fusionarlos directamente en tu rama local.*
 
 - *Si hay conflictos de fusión, Git intentará fusionar automáticamente los cambios si es posible. Si no es posible, te pedirá que resuelvas los conflictos manualmente.*
+
+---
 
 ### ***Diferencias clave:***
 

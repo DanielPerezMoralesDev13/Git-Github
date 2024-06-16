@@ -1,6 +1,7 @@
 <!-- Autor: Daniel Benjamin Perez Morales -->
 <!-- GitHub: https://github.com/DanielPerezMoralesDev13 -->
-<!-- Correo electrónico: danielperezdev@proton.me  -->
+<!-- Correo electrónico: danielperezdev@proton.me -->
+
 # ***"git alias"***
 
 > *En Git, puedes definir alias para abreviar comandos comunes o incluso crear comandos personalizados. Estos alias pueden ser globales, locales o de sistema, y se configuran de diferentes maneras.*
@@ -19,7 +20,7 @@
    git config --global alias.co checkout
    ```
 
-2. **Alias Locales**: Estos alias se aplican solo al repositorio en el que se definen.
+2. **Alias Locales**: *Estos alias se aplican solo al repositorio en el que se definen.*
 
    *Para configurar alias locales, puedes editar directamente el fichero `.git/config` dentro del repositorio y agregar secciones de alias, o puedes usar el siguiente comando en tu terminal dentro del repositorio:*
 
@@ -75,7 +76,9 @@ git log --oneline --all --graph --pretty=format:"%C(auto)%h%d %s %C(black)%C(bol
 
 - *Este comando muestra un historial de confirmaciones en una sola línea, incluyendo todos los ramas (`--all`) y representando gráficamente las relaciones entre las confirmaciones (`--graph`). La opción `--pretty=format` permite especificar un formato de salida personalizado. En este caso, `%C(auto)%h%d %s %C(black)%C(bold)%cr` formatea la salida para mostrar el hash de la confirmación (`%h`), los nombres de los ramas (`%d`), el mensaje de la confirmación (`%s`), y la fecha relativa (`%cr`) en negrita (`%C(black)%C(bold)`).*
 
-## **Para añadirle un alias**
+---
+
+## ***Para añadirle un alias***
 
 ```bash
 git config alias.lg "log --oneline --all --graph --pretty=format:'%C(auto)%h%d %s %C(black)%C(bold)%cr'"
@@ -93,75 +96,75 @@ git config --global alias.lg "log --oneline --all --graph --pretty=format:'%C(au
 
 *Aquí están todas las opciones de formato que puedes utilizar dentro de `--pretty=format`:*
 
-- *`%H`: Hash completo de la confirmación.*
+- **`%H`:** *Hash completo de la confirmación.*
 
-- *`%h`: Hash corto de la confirmación.*
+- **`%h`:** *Hash corto de la confirmación.*
 
-- *`%T`: Hash del árbol.*
+- **`%T`:** *Hash del árbol.*
 
-- *`%t`: Hash corto del árbol.*
+- **`%t`:** *Hash corto del árbol.*
 
-- *`%P`: Hashes de padres.*
+- **`%P`:** *Hashes de padres.*
 
-- *`%p`: Hashes de padres abreviados.*
+- **`%p`:** *Hashes de padres abreviados.*
 
-- *`%an`: Nombre del autor.*
+- **`%an`:** *Nombre del autor.*
 
-- *`%aN`: Nombre del autor (nombre completo).*
+- **`%aN`:** *Nombre del autor (nombre completo).*
 
-- *`%ae`: Correo electrónico del autor.*
+- **`%ae`:** *Correo electrónico del autor.*
 
-- *`%aE`: Correo electrónico del autor (nombre completo).*
+- **`%aE`:** *Correo electrónico del autor (nombre completo).*
 
-- *`%ad`: Fecha de autoría (fecha).*
+- **`%ad`:** *Fecha de autoría (fecha).*
 
-- *`%aD`: Fecha de autoría (formato de git blame).*
+- **`%aD`:** *Fecha de autoría (formato de git blame).*
 
-- *`%ar`: Fecha de autoría (relativa).*
+- **`%ar`:** *Fecha de autoría (relativa).*
 
-- *`%at`: Fecha de autoría (formato UNIX timestamp).*
+- **`%at`:** *Fecha de autoría (formato UNIX timestamp).*
 
-- *`%ai`: Fecha de autoría (formato ISO 8601).*
+- **`%ai`:** *Fecha de autoría (formato ISO 8601).*
 
-- *`%aI`: Fecha de autoría (formato ISO 8601, formato de git blame).*
+- **`%aI`:** *Fecha de autoría (formato ISO 8601, formato de git blame).*
 
-- *`%cn`: Nombre del comisor.*
+- **`%cn`:** *Nombre del comisor.*
 
-- *`%cN`: Nombre del comisor (nombre completo).*
+- **`%cN`:** *Nombre del comisor (nombre completo).*
 
-- *`%ce`: Correo electrónico del comisor.*
+- **`%ce`:** *Correo electrónico del comisor.*
 
-- *`%cE`: Correo electrónico del comisor (nombre completo).*
+- **`%cE`:** *Correo electrónico del comisor (nombre completo).*
 
-- *`%cd`: Fecha de comisión (fecha).*
+- **`%cd`:** *Fecha de comisión (fecha).*
 
-- *`%cD`: Fecha de comisión (formato de git blame).*
+- **`%cD`:** *Fecha de comisión (formato de git blame).*
 
-- *`%cr`: Fecha de comisión (relativa).*
+- **`%cr`:** *Fecha de comisión (relativa).*
 
-- *`%ct`: Fecha de comisión (formato UNIX timestamp).*
+- **`%ct`:** *Fecha de comisión (formato UNIX timestamp).*
 
-- *`%ci`: Fecha de comisión (formato ISO 8601).*
+- **`%ci`:** *Fecha de comisión (formato ISO 8601).*
 
-- *`%cI`: Fecha de comisión (formato ISO 8601, formato de git blame).*
+- **`%cI`:** *Fecha de comisión (formato ISO 8601, formato de git blame).*
 
-- *`%d`: Nombres de las ramas que contienen la confirmación.*
+- **`%d`:** *Nombres de las ramas que contienen la confirmación.*
 
-- *`%e`: Correo electrónico del autor (parecido a `%ae`).*
+- **`%e`:** *Correo electrónico del autor (parecido a `%ae`).*
 
-- *`%s`: Mensaje de la confirmación.*
+- **`%s`:** *Mensaje de la confirmación.*
 
-- *`%f`: Referencia de nombres de confirmación.*
+- **`%f`:** *Referencia de nombres de confirmación.*
 
-- *`%b`: Mensaje de la confirmación, excepto el título.*
+- **`%b`:** *Mensaje de la confirmación, excepto el título.*
 
-- *`%B`: Mensaje de la confirmación, excepto el título, con comentario.*
+- **`%B`:** *Mensaje de la confirmación, excepto el título, con comentario.*
 
-- *`%N`: Nombre del campo en el formato de git notes.*
+- **`%N`:** *Nombre del campo en el formato de git notes.*
 
-- *`%n`: Separador de línea.*
+- **`%n`:** *Separador de línea.*
 
-- *`%%`: Porcentaje literal.*
+- **`%%`:** *Porcentaje literal.*
 
 - *Puedes combinar estos marcadores de formato y otros caracteres para crear un formato personalizado que se adapte a tus necesidades. Por ejemplo, `%h` muestra el hash corto, `%an` muestra el nombre del autor, `%s` muestra el mensaje de la confirmación y `%cr` muestra la fecha relativa.*
 

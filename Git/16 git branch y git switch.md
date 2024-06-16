@@ -1,9 +1,12 @@
 <!-- Autor: Daniel Benjamin Perez Morales -->
 <!-- GitHub: https://github.com/DanielPerezMoralesDev13 -->
-<!-- Correo electrónico: danielperezdev@proton.me  -->
+<!-- Correo electrónico: danielperezdev@proton.me -->
+
 # ***"git branch" y "git switch"***
 
 > *`git branch` y `git switch` son dos comandos utilizados en Git para trabajar con ramas. Sin embargo, cumplen diferentes funciones.*
+
+---
 
 ## ***`git branch`***
 

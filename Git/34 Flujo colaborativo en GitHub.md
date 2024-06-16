@@ -1,6 +1,7 @@
 <!-- Autor: Daniel Benjamin Perez Morales -->
 <!-- GitHub: https://github.com/DanielPerezMoralesDev13 -->
-<!-- Correo electrónico: danielperezdev@proton.me  -->
+<!-- Correo electrónico: danielperezdev@proton.me -->
+
 # ***"Flujo colaborativo en GitHub"***
 
 - *El flujo de trabajo colaborativo en GitHub implica que varios colaboradores trabajen juntos en un proyecto, ya sea un repositorio público o privado, utilizando GitHub como plataforma de colaboración. Aquí tienes un flujo de trabajo básico para colaborar en GitHub:*

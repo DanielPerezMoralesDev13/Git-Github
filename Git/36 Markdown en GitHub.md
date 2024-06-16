@@ -1,6 +1,7 @@
 <!-- Autor: Daniel Benjamin Perez Morales -->
 <!-- GitHub: https://github.com/DanielPerezMoralesDev13 -->
-<!-- Correo electrónico: danielperezdev@proton.me  -->
+<!-- Correo electrónico: danielperezdev@proton.me -->
+
 # ***"Markdown en GitHub"***
 
 > *Markdown es un lenguaje de marcado ligero que se utiliza ampliamente para formatear texto en plataformas como GitHub, foros, blogs y sistemas de gestión de contenido. En GitHub, Markdown se utiliza para formatear descripciones de repositorios, issues, pull requests, wikis y otros documentos. Aquí tienes una descripción de cómo se utiliza Markdown en GitHub:*
@@ -89,10 +90,10 @@
 
 8. **Citas:**
 
-   Puedes crear citas utilizando el signo mayor que (>). Por ejemplo:
+   *Puedes crear citas utilizando el signo mayor que (>). Por ejemplo:*
 
    ```markdown
    > Esto es una cita.
    ```
 
-Estos son solo algunos ejemplos de cómo se utiliza Markdown en GitHub. La sintaxis Markdown es bastante sencilla y se puede utilizar para formatear texto de manera rápida y eficiente en GitHub y otras plataformas.
+*Estos son solo algunos ejemplos de cómo se utiliza Markdown en GitHub. La sintaxis Markdown es bastante sencilla y se puede utilizar para formatear texto de manera rápida y eficiente en GitHub y otras plataformas.*

@@ -1,6 +1,7 @@
 <!-- Autor: Daniel Benjamin Perez Morales -->
 <!-- GitHub: https://github.com/DanielPerezMoralesDev13 -->
-<!-- Correo electrónico: danielperezdev@proton.me  -->
+<!-- Correo electrónico: danielperezdev@proton.me -->
+
 # ***"git tag"***
 
 > *El comando `git tag` en Git se utiliza para administrar etiquetas, que son puntos específicos en la historia del repositorio que se marcan con un nombre. Estas etiquetas pueden ser útiles para marcar versiones específicas de tu código, como versiones estables o lanzamientos importantes.*
@@ -9,7 +10,7 @@
 
 1. **Crear una etiqueta:**
 
-   Para crear una etiqueta, puedes usar el comando `git tag` seguido del nombre que deseas para la etiqueta y **opcionalmente el identificador del commit al que deseas asociar la etiqueta. Por ejemplo:**
+   *Para crear una etiqueta, puedes usar el comando `git tag` seguido del nombre que deseas para la etiqueta y **opcionalmente el identificador del commit al que deseas asociar la etiqueta. Por ejemplo:***
 
    ```bash
    git tag v1.0.0
@@ -159,7 +160,7 @@
 
 6. **Empujar etiquetas al repositorio remoto:**
 
-   *Abreviado:*
+   **Abreviado:**
 
    ```bash
    git push origin v1.0.0

@@ -1,6 +1,7 @@
 <!-- Autor: Daniel Benjamin Perez Morales -->
 <!-- GitHub: https://github.com/DanielPerezMoralesDev13 -->
-<!-- Correo electrónico: danielperezdev@proton.me  -->
+<!-- Correo electrónico: danielperezdev@proton.me -->
+
 # ***"git merge"***
 
 > *El comando `git merge` se utiliza en Git para combinar cambios de una rama a otra. Es una operación fundamental en Git, ya que permite fusionar líneas de desarrollo separadas en una sola rama, combinando los cambios realizados en una rama con los de otra.*

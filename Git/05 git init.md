@@ -1,15 +1,19 @@
 <!-- Autor: Daniel Benjamin Perez Morales -->
 <!-- GitHub: https://github.com/DanielPerezMoralesDev13 -->
-<!-- Correo electrónico: danielperezdev@proton.me  -->
+<!-- Correo electrónico: danielperezdev@proton.me -->
 # ***"git init"***
 
-## **Inicializar un repositorio**
+---
+
+## ***Inicializar un repositorio***
 
 > *Para crear un nuevo repositorio en tu directorio actual, puedes usar el comando `git init`.*
 
 ```bash
 git init
 ```
+
+---
 
 ## **Clonar un repositorio**
 

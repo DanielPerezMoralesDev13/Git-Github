@@ -1,17 +1,24 @@
 <!-- Autor: Daniel Benjamin Perez Morales -->
 <!-- GitHub: https://github.com/DanielPerezMoralesDev13 -->
-<!-- Correo electrónico: danielperezdev@proton.me  -->
+<!-- Correo electrónico: danielperezdev@proton.me -->
+
 # ***"Repositorio proyecto"***
 
 > *Para crear un repositorio para un proyecto en GitHub, sigue estos pasos:*
 
+---
+
 ## ***1. Inicia sesión en tu cuenta de GitHub:***
 
-> *Visita [github.com](https://github.com/) y accede a tu cuenta utilizando tu nombre de usuario y contraseña.*
+> *Visita [github.com](https://github.com/ "https://github.com/") y accede a tu cuenta utilizando tu nombre de usuario y contraseña.*
+
+---
 
 ### ***2. Crea un nuevo repositorio:***
 
 > *Haz clic en el botón "New" en la esquina superior derecha de la página. Esto te llevará a la página para crear un nuevo repositorio.*
+
+---
 
 ### ***3. Completa la información del repositorio:***
 
@@ -23,9 +30,13 @@
 
 - *Opcionalmente, puedes agregar un archivo README, un archivo `.gitignore` y elegir una licencia para tu proyecto.*
 
+---
+
 ### ***4. Haz clic en "Create repository":***
 
 > *Una vez que hayas completado la información del repositorio, haz clic en el botón "Create repository" para crearlo.*
+
+---
 
 ### ***5. Clona el repositorio en tu computadora:***
 
@@ -35,11 +46,15 @@
 git clone <URL_del_repositorio>
 ```
 
-Reemplaza `<URL_del_repositorio>` con la URL que aparece en la página del repositorio que acabas de crear en GitHub.
+*Reemplaza `<URL_del_repositorio>` con la URL que aparece en la página del repositorio que acabas de crear en GitHub.*
+
+---
 
 ### ***6. Trabaja en tu proyecto:***
 
 > *Una vez que hayas clonado el repositorio, puedes agregar archivos, hacer commits y realizar otras operaciones de control de versiones en tu proyecto localmente.*
+
+---
 
 ### ***7. Sube tus cambios al repositorio en GitHub:***
 
@@ -47,12 +62,12 @@ Reemplaza `<URL_del_repositorio>` con la URL que aparece en la página del repos
 
 ```bash
 git add .
-git commit -m* "Mensaje del commit"*
+git commit -m "Mensaje del commit"
 git push origin main
 ```
 
 ```bash
-git commit -m* "Mensaje del commit"*
+git commit -m "Mensaje del commit"
 ```
 
 ```bash

@@ -1,6 +1,7 @@
 <!-- Autor: Daniel Benjamin Perez Morales -->
 <!-- GitHub: https://github.com/DanielPerezMoralesDev13 -->
-<!-- Correo electrónico: danielperezdev@proton.me  -->
+<!-- Correo electrónico: danielperezdev@proton.me -->
+
 # ***Configuración de Git***
 
 > *La configuración de usuario de Git se almacena en un archivo llamado `.gitconfig` que se encuentra en tu directorio de inicio. La ruta exacta del archivo dependerá de tu sistema operativo:*
@@ -15,6 +16,7 @@
 git config --list
 ```
 
+> [!NOTE]
 > *Si solo quieres ver la configuración de tu usuario, puedes usar los siguientes comandos:*
 
 ```bash
@@ -27,7 +29,9 @@ git config --get user.email
 
 > *Estos comandos mostrarán tu nombre de usuario y correo electrónico de Git, respectivamente.*
 
-## **`git`**
+---
+
+## ***`git`***
 
 > *El comando `git` por sí solo muestra una lista de los comandos más comúnmente usados en Git. Es una forma rápida de recordar o aprender los comandos básicos de Git.*
 
@@ -35,7 +39,9 @@ git config --get user.email
 git
 ```
 
-## `git -h` y `git --help`
+---
+
+## ***`git -h` y `git --help`***
 
 > *Los comandos `git -h` y `git --help` muestran la ayuda de Git. Proporcionan una lista de los comandos de Git disponibles y una breve descripción de lo que hace cada uno. Ambos comandos hacen lo mismo, por lo que puedes usar el que prefieras.*
 
@@ -57,9 +63,12 @@ git help status
 git status --help
 ```
 
-> ***Nota:** La documentación de Git es muy completa y útil. Si alguna vez te encuentras atascado o no estás seguro de cómo funciona un comando, no dudes en consultar la ayuda de Git o la documentación en línea.*
+> [!TIP]
+> **Nota:** *La documentación de Git es muy completa y útil. Si alguna vez te encuentras atascado o no estás seguro de cómo funciona un comando, no dudes en consultar la ayuda de Git o la documentación en línea.*
 
-## Configuración inicial
+---
+
+## ***Configuración inicial***
 
 > *Antes de empezar a usar Git, necesitarás configurar tu nombre de usuario y correo electrónico.*
 
@@ -91,12 +100,15 @@ git config --global core.editor "code --wait"
 git config --global core.abbrev 15
 ```
 
-- *`git config --global core.abbrev 15`: Este comando establece el valor de la variable `core.abbrev` en 15 de forma global. Esta configuración controla el número de caracteres abreviados mostrados por Git. En este caso, se establece en 15 caracteres.*
+- **`git config --global core.abbrev 15`:** *Este comando establece el valor de la variable `core.abbrev` en 15 de forma global. Esta configuración controla el número de caracteres abreviados mostrados por Git. En este caso, se establece en 15 caracteres.*
 
 - *El valor predeterminado para `git config --global core.abbrev` es 7. Esto significa que, de forma predeterminada, Git mostrará los identificadores de commit (hashes) abreviados a 7 caracteres de longitud. Sin embargo, si estableces `git config --global core.abbrev` sin proporcionar un valor, Git restablecerá esta configuración al valor predeterminado de 7 caracteres.*
 
+---
+
 ## ***Enviar cambios a un repositorio remoto***
 
+> [!NOTE]
 > *Una vez que hayas realizado cambios en tu repositorio local y los hayas confirmado (commit), puedes enviar estos cambios a tu repositorio remoto utilizando el comando `git push`.*
 
 ## ***Comando `git push`***
@@ -117,14 +129,15 @@ git push <remote> <branch>
 git push -u origin master
 ```
 
-Y aquí está el mismo comando, pero utilizando la versión larga `--set-upstream` de la opción:
+*Y aquí está el mismo comando, pero utilizando la versión larga `--set-upstream` de la opción:*
 
 ```bash
 git push --set-upstream origin master
 ```
 
-> *En ambos casos, `origin` es el repositorio remoto y `master` es la rama que deseas actualizar. Estos comandos enviarán tus cambios a la rama `master` del repositorio `origin`, y también establecerán esa rama como el "upstream" predeterminado para tu rama local actual.*
+- *En ambos casos, `origin` es el repositorio remoto y `master` es la rama que deseas actualizar. Estos comandos enviarán tus cambios a la rama `master` del repositorio `origin`, y también establecerán esa rama como el "upstream" predeterminado para tu rama local actual.*
 
+> [!TIP]
 **Nota:** *`origin` es el nombre predeterminado que Git da al repositorio remoto desde el que clonaste, y `master` es la rama predeterminada.*
 
 ```bash
@@ -133,6 +146,8 @@ git mv main.py lib.py
 
 - *`git mv main.py lib.py`: Este comando renombra el archivo `main.py` a `lib.py` dentro del repositorio Git. Git detectará automáticamente el cambio y lo registrará como una modificación de archivo.*
 
+---
+
 ## ***Enlaces útiles***
 
-- [*Documentación oficial de Git*](https://git-scm.com/doc)
+- [*Documentación oficial de Git*](https://git-scm.com/doc "https://git-scm.com/doc")

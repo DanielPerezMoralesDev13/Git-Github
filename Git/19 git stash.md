@@ -1,13 +1,14 @@
 <!-- Autor: Daniel Benjamin Perez Morales -->
 <!-- GitHub: https://github.com/DanielPerezMoralesDev13 -->
-<!-- Correo electrónico: danielperezdev@proton.me  -->
+<!-- Correo electrónico: danielperezdev@proton.me -->
+
 # ***"git stash"***
 
 > *El comando `git stash` se utiliza en Git para almacenar temporalmente cambios locales que no están listos para ser confirmados aún. Esto es útil cuando estás trabajando en una rama pero necesitas cambiar rápidamente a otra rama o estado, y quieres guardar temporalmente tus cambios sin realizar un commit.*
 
 **Aquí hay algunos usos comunes del comando `git stash`:**
 
-1. ***Guardar cambios locales en un stash:** Puedes guardar los cambios locales en un stash utilizando:*
+1. **Guardar cambios locales en un stash:** *Puedes guardar los cambios locales en un stash utilizando:*
 
    ```bash
    git stash
@@ -15,7 +16,7 @@
 
    *Esto guardará todos los cambios que no estén preparados para ser confirmados en un stash. Los cambios serán eliminados del área de preparación (staging area) y del directorio de trabajo.*
 
-2. ***Listar stashes:** Puedes listar todos los stashes guardados utilizando:*
+2. **Listar stashes:** *Puedes listar todos los stashes guardados utilizando:*
 
    ```bash
    git stash list
@@ -23,7 +24,7 @@
 
    *Esto mostrará una lista de todos los stashes guardados, junto con un identificador único para cada uno.*
 
-3. ***Aplicar un stash:** Puedes aplicar un stash guardado a tu rama actual utilizando:*
+3. **Aplicar un stash:** *Puedes aplicar un stash guardado a tu rama actual utilizando:*
 
    ```bash
    git stash apply
@@ -37,7 +38,7 @@
 
    *Donde `n` es el número del stash que deseas aplicar.*
 
-4. ***Eliminar un stash:** Puedes eliminar un stash guardado utilizando:*
+4. **Eliminar un stash:** *Puedes eliminar un stash guardado utilizando:*
 
    ```bash
    git stash drop
@@ -49,7 +50,7 @@
    git stash drop stash@{n}
    ```
 
-5. ***Aplicar y eliminar un stash:** Puedes aplicar y eliminar un stash en una sola operación utilizando:*
+5. **Aplicar y eliminar un stash:** *Puedes aplicar y eliminar un stash en una sola operación utilizando:*
 
    ```bash
    git stash pop
@@ -61,7 +62,9 @@
 
 *Aquí tienes algunos ejemplos de cómo usar el comando `git stash` en diferentes situaciones:*
 
-## **Ejemplo 1: Guardar cambios antes de cambiar de rama**
+---
+
+## ***Ejemplo 1: Guardar cambios antes de cambiar de rama***
 
 > *Supongamos que estás trabajando en una rama `feature` y tienes algunos cambios que aún no quieres confirmar. Sin embargo, necesitas cambiar a la rama `main` para revisar algo rápidamente. En este caso, puedes guardar tus cambios en un stash antes de cambiar de rama:*
 
@@ -87,7 +90,9 @@ git checkout feature
 git stash apply
 ```
 
-### **Ejemplo 2: Guardar cambios antes de hacer un pull**
+---
+
+### ***Ejemplo 2: Guardar cambios antes de hacer un pull***
 
 > *Supongamos que estás trabajando en una rama local y deseas actualizar tu rama con los cambios del repositorio remoto. Antes de hacer un `git pull`, decides guardar tus cambios locales en un stash para evitar conflictos:*
 
@@ -108,7 +113,9 @@ git pull origin mi-rama
 git stash apply
 ```
 
-### **Ejemplo 3: Guardar cambios antes de hacer un reset**
+---
+
+### ***Ejemplo 3: Guardar cambios antes de hacer un reset***
 
 > *Supongamos que has realizado algunos cambios en tu directorio de trabajo y deseas volver al estado anterior. En lugar de descartar tus cambios con un `git reset --hard`, prefieres guardarlos en un stash por si los necesitas más tarde:*
 

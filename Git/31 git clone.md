@@ -1,6 +1,7 @@
 <!-- Autor: Daniel Benjamin Perez Morales -->
 <!-- GitHub: https://github.com/DanielPerezMoralesDev13 -->
-<!-- Correo electrónico: danielperezdev@proton.me  -->
+<!-- Correo electrónico: danielperezdev@proton.me -->
+
 # ***"git clone"***
 
 - *El comando `git clone` se utiliza para clonar un repositorio Git existente desde un repositorio remoto (por lo general, en un servidor como GitHub, GitLab o Bitbucket) y crear una copia local del mismo en tu máquina. Aquí tienes cómo usar `git clone`:*

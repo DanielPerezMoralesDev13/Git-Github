@@ -1,11 +1,15 @@
 <!-- Autor: Daniel Benjamin Perez Morales -->
 <!-- GitHub: https://github.com/DanielPerezMoralesDev13 -->
-<!-- Correo electrónico: danielperezdev@proton.me  -->
+<!-- Correo electrónico: danielperezdev@proton.me -->
+
 # ***Ramas en Git***
 
+> [!IMPORTANT]
 > *Las **ramas** en Git son una forma efectiva de aislar el trabajo en características, experimentos o cualquier otra segregación de tareas en tu código. Aquí te presento algunos comandos esenciales y avanzados relacionados con las ramas en Git.*
 
-## **Comandos básicos**
+---
+
+## ***Comandos básicos***
 
 - *`git branch`: Este comando lista todas las ramas en tu repositorio.*
 
@@ -37,7 +41,9 @@ git branch -d nueva-rama
 git branch -D nueva-rama
 ```
 
-## Comandos avanzados
+---
+
+## ***Comandos avanzados***
 
 - *`git branch -m <nombre>`: Este comando renombra la rama actual a `<nombre>`.*
 
@@ -77,13 +83,13 @@ git branch --no-merged
 
 **Usar kebab-case al nombrar ramas en Git es una práctica recomendada por varias razones:**
 
-1. ***Legibilidad:** El kebab-case utiliza guiones para separar palabras en lugar de espacios o camelCase. Esto hace que los nombres de las ramas sean más legibles y fáciles de entender, especialmente cuando se muestran en interfaces de línea de comandos o herramientas de control de versiones.*
+1. **Legibilidad:** *El kebab-case utiliza guiones para separar palabras en lugar de espacios o camelCase. Esto hace que los nombres de las ramas sean más legibles y fáciles de entender, especialmente cuando se muestran en interfaces de línea de comandos o herramientas de control de versiones.*
 
-2. ***Consistencia:** Al seguir una convención de nomenclatura consistente, como el kebab-case, se facilita la identificación y la asociación de las ramas con las funcionalidades o tareas que representan. Esto ayuda a mantener un flujo de trabajo organizado y coherente en el equipo.*
+2. **Consistencia:** *Al seguir una convención de nomenclatura consistente, como el kebab-case, se facilita la identificación y la asociación de las ramas con las funcionalidades o tareas que representan. Esto ayuda a mantener un flujo de trabajo organizado y coherente en el equipo.*
 
-3. ***Compatibilidad:** Algunas herramientas y sistemas operativos pueden tener restricciones o problemas al manejar espacios o caracteres especiales en los nombres de las ramas. El kebab-case evita estos problemas al utilizar solo caracteres alfanuméricos y guiones.*
+3. **Compatibilidad:** *Algunas herramientas y sistemas operativos pueden tener restricciones o problemas al manejar espacios o caracteres especiales en los nombres de las ramas. El kebab-case evita estos problemas al utilizar solo caracteres alfanuméricos y guiones.*
 
-4. ***Facilita la URL y la referencia en código:** Al utilizar kebab-case, los nombres de las ramas pueden incorporarse fácilmente en URLs o referencias en el código fuente sin necesidad de escapar caracteres especiales o realizar ajustes adicionales.*
+4. **Facilita la URL y la referencia en código:** *Al utilizar kebab-case, los nombres de las ramas pueden incorporarse fácilmente en URLs o referencias en el código fuente sin necesidad de escapar caracteres especiales o realizar ajustes adicionales.*
 
 **Ejemplos de nombres de ramas en kebab-case:**
 

@@ -1,11 +1,14 @@
 <!-- Autor: Daniel Benjamin Perez Morales -->
 <!-- GitHub: https://github.com/DanielPerezMoralesDev13 -->
-<!-- Correo electrónico: danielperezdev@proton.me  -->
+<!-- Correo electrónico: danielperezdev@proton.me -->
+
 # ***"git checkout" y "git reset"***
 
 *`git checkout`, `git reset` y `git diff` son comandos fundamentales en Git, un sistema de control de versiones distribuido ampliamente utilizado para el desarrollo de software. Aquí tienes una explicación de cada uno, junto con su sintaxis típica en formato Markdown (`.md`):*
 
-## `git checkout`
+---
+
+## ***`git checkout`***
 
 > *El comando `git checkout` se utiliza principalmente para cambiar entre ramas, deshacer cambios locales o incluso para restaurar ficheros específicos a un estado anterior.*
 
@@ -39,11 +42,15 @@ git checkout <commit>            # Mover HEAD a un commit específico (modo deta
 
 - *Entonces, en resumen, los guiones dobles (`--`) indican que no hay más opciones de línea de comandos después de ellos, lo que ayuda a evitar confusiones y asegura que cualquier texto que siga se interprete correctamente como un argumento.*
 
-### `git reset`
+---
+
+### ***`git reset`***
 
 > *El comando `git reset` se usa para deshacer cambios en el árbol de trabajo y en el índice (staging area), pero no en el historial de confirmaciones (commits). Puede utilizarse para mover HEAD y la rama actual a un commit específico.*
 
-#### Sintaxis en Markdown
+---
+
+#### ***Sintaxis en Markdown***
 
 ```bash
 git reset --soft <commit>    # Deshacer commits manteniendo los cambios en el área de preparación

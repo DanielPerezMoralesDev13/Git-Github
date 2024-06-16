@@ -1,6 +1,7 @@
 <!-- Autor: Daniel Benjamin Perez Morales -->
 <!-- GitHub: https://github.com/DanielPerezMoralesDev13 -->
-<!-- Correo electrónico: danielperezdev@proton.me  -->
+<!-- Correo electrónico: danielperezdev@proton.me -->
+
 # ***"git diff"***
 
 > *El comando `git diff` se utiliza para ver las diferencias entre el árbol de trabajo y el área de preparación (staging area), entre el área de preparación y el último commit, o entre dos commits diferentes, entre otros usos.*

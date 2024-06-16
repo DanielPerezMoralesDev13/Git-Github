@@ -1,9 +1,12 @@
 <!-- Autor: Daniel Benjamin Perez Morales -->
 <!-- GitHub: https://github.com/DanielPerezMoralesDev13 -->
-<!-- Correo electrónico: danielperezdev@proton.me  -->
+<!-- Correo electrónico: danielperezdev@proton.me -->
+
 # ***"git remote"***
 
 *El comando `git remote` en Git se utiliza para administrar las referencias remotas a repositorios remotos. Las referencias remotas son alias que apuntan a ubicaciones de repositorios remotos. Aquí tienes algunos usos comunes del comando `git remote`:*
+
+---
 
 ## ***1. Listar referencias remotas***
 
@@ -13,6 +16,8 @@
 git remote
 ```
 
+---
+
 ## ***2. Ver detalles de referencias remotas***
 
 *Para ver más detalles, como las URLs de los repositorios remotos, puedes usar la opción `-v` o `--verbose`:*
@@ -20,6 +25,8 @@ git remote
 ```bash
 git remote -v
 ```
+
+---
 
 ## ***3. Agregar una referencia remota***
 
@@ -33,6 +40,8 @@ git remote add <nombre_remoto> <URL_repositorio_remoto>
 git remote add origin https://github.com/usuario/repo.git
 ```
 
+---
+
 ## ***4. Renombrar una referencia remota***
 
 *Puedes renombrar una referencia remota utilizando el subcomando `rename` seguido del nombre antiguo y el nombre nuevo:*
@@ -45,6 +54,8 @@ git remote rename <nombre_antiguo> <nombre_nuevo>
 git remote rename origin upstream
 ```
 
+---
+
 ## ***5. Eliminar una referencia remota***
 
 *Para eliminar una referencia remota, puedes utilizar el subcomando `remove` seguido del nombre de la referencia remota:*
@@ -56,6 +67,8 @@ git remote remove <nombre_remoto>
 ```bash
 git remote remove origin
 ```
+
+---
 
 ## ***6. Obtener información sobre una referencia remota***
 

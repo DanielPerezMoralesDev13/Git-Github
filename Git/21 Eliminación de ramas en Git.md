@@ -1,9 +1,12 @@
 <!-- Autor: Daniel Benjamin Perez Morales -->
 <!-- GitHub: https://github.com/DanielPerezMoralesDev13 -->
-<!-- Correo electrónico: danielperezdev@proton.me  -->
+<!-- Correo electrónico: danielperezdev@proton.me -->
+
 # ***"Eliminación de ramas en Git"***
 
 > *La eliminación de ramas en Git es una operación común para limpiar el historial del repositorio después de que una rama ya no sea necesaria. Aquí tienes algunos métodos para eliminar ramas en Git:*
+
+---
 
 ## ***Eliminar una rama local:***
 
@@ -38,6 +41,8 @@
    ```
 
    *La opción `-D` fuerza la eliminación de la rama, incluso si hay cambios que no se han fusionado.*
+
+---
 
 ### ***Eliminar una rama remota:***
 

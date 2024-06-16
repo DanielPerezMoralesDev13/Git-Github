@@ -1,6 +1,7 @@
 <!-- Autor: Daniel Benjamin Perez Morales -->
 <!-- GitHub: https://github.com/DanielPerezMoralesDev13 -->
-<!-- Correo electrónico: danielperezdev@proton.me  -->
+<!-- Correo electrónico: danielperezdev@proton.me -->
+
 # ***"git cherry-pick" y "git rebase"***
 
 ## ***`git cherry-pick`***
@@ -15,6 +16,8 @@ git cherry-pick <commit-hash>
 
 *Esto aplicará los cambios del commit especificado en la rama actual.*
 
+---
+
 ### ***`git rebase`***
 
 > *El comando `git rebase` se utiliza para reorganizar la historia de confirmaciones cambiando la base de una rama. Puede ser útil para mantener una historia de confirmaciones limpia y lineal.*
@@ -26,6 +29,8 @@ git rebase master
 ```
 
 **Esto reorganizará la rama actual para que se base en la última confirmación en la rama `master`.**
+
+---
 
 #### ***Opciones de `git rebase`:***
 

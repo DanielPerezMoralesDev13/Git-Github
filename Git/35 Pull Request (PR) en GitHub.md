@@ -1,6 +1,7 @@
 <!-- Autor: Daniel Benjamin Perez Morales -->
 <!-- GitHub: https://github.com/DanielPerezMoralesDev13 -->
-<!-- Correo electrónico: danielperezdev@proton.me  -->
+<!-- Correo electrónico: danielperezdev@proton.me -->
+
 # ***"Pull Request (PR)" en GitHub***
 
 - *Un "Pull Request" (PR) en GitHub es una solicitud que un colaborador envía a los propietarios de un repositorio para solicitar que revisen y fusionen los cambios realizados en una rama de características de su fork con la rama principal del repositorio original. Aquí tienes una descripción detallada de cómo funciona un Pull Request en GitHub:*

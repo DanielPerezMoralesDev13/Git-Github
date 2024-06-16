@@ -1,21 +1,30 @@
 <!-- Autor: Daniel Benjamin Perez Morales -->
 <!-- GitHub: https://github.com/DanielPerezMoralesDev13 -->
-<!-- Correo electrónico: danielperezdev@proton.me  -->
+<!-- Correo electrónico: danielperezdev@proton.me -->
+
 # ***"Primeros pasos en GitHub"***
 
 - **Aquí tienes algunos pasos básicos para comenzar con GitHub:**
 
+---
+
 ## ***1. Crear una cuenta en GitHub:***
 
-> *Visita el sitio web de GitHub en [*github.com*](https://github.com/) y crea una cuenta si aún no tienes una. Solo necesitas proporcionar una dirección de correo electrónico, un nombre de usuario y una contraseña.*
+> *Visita el sitio web de GitHub en [**github.com**](https://github.com/ "https://github.com/") y crea una cuenta si aún no tienes una. Solo necesitas proporcionar una dirección de correo electrónico, un nombre de usuario y una contraseña.*
+
+---
 
 ### ***2. Explorar GitHub:***
 
 > *Después de iniciar sesión, explora GitHub para familiarizarte con su interfaz. Puedes buscar repositorios de código abierto, explorar proyectos populares y descubrir comunidades de desarrolladores.*
 
+---
+
 ### ***3. Crear un repositorio:***
 
 > *Para crear un nuevo repositorio, haz clic en el botón "New" en la esquina superior derecha de la página principal de GitHub. Ingresa un nombre para tu repositorio, una descripción opcional y elige si quieres que sea público o privado. Luego, haz clic en "Create repository".*
+
+---
 
 ### ***4. Clonar un repositorio:***
 
@@ -24,6 +33,8 @@
 ```bash
 git clone <URL_del_repositorio>
 ```
+
+---
 
 ### ***5. Crear un fichero y hacer un commit:***
 
@@ -41,6 +52,8 @@ git add ./README.md  # Agrega el fichero al área de preparación
 git commit -m "Agregar fichero README.md"  # Crea un commit con el fichero agregado
 ```
 
+---
+
 ### ***6. Enviar cambios a GitHub:***
 
 > *Después de hacer un commit en tu repositorio local, puedes enviar los cambios a GitHub utilizando el comando `git push`. Por ejemplo:*
@@ -48,6 +61,8 @@ git commit -m "Agregar fichero README.md"  # Crea un commit con el fichero agreg
 ```bash
 git push origin main  # Envía los cambios de la rama main al repositorio remoto
 ```
+
+---
 
 ### ***7. Explorar características adicionales:***
 

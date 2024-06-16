@@ -1,8 +1,10 @@
 <!-- Autor: Daniel Benjamin Perez Morales -->
 <!-- GitHub: https://github.com/DanielPerezMoralesDev13 -->
-<!-- Correo electrónico: danielperezdev@proton.me  -->
+<!-- Correo electrónico: danielperezdev@proton.me -->
+
 # ***"Fichero .gitignore"***
 
+> [!NOTE]
 > *El fichero `.gitignore` se utiliza en Git para especificar ficheros y directorios que deseas ignorar en el control de versiones. Esto significa que Git no rastreará ni incluirá los ficheros y directorios enumerados en este fichero en tus commits. Esto es útil para evitar incluir ficheros generados automáticamente, ficheros de compilación, ficheros temporales y otros ficheros que no deseas que estén bajo control de versiones.*
 
 **Aquí hay un ejemplo simple de un fichero `.gitignore`:**
@@ -52,7 +54,7 @@ proyecto/
 
 *En este ejemplo:*
 
-- *`*.o` e `*.out` y `*.py` ignorarán todos los ficheros con extensión `.o` e `.out` y `*.py`, respectivamente.
+- *`*.o` e `*.out` y `*.py` ignorarán todos los ficheros con extensión `.o` e `.out` y `*.py`, respectivamente.*
 
 - *`fotos/` indica que se deben ignorar todos los archivos y subdirectorios dentro de la carpeta fotos.*
 
@@ -66,7 +68,7 @@ proyecto/
 
 - *`config.ini` ignorará un fichero específico llamado `config.ini`.*
 
-- *`/build/` y `/node_modules/` ignorarán los directorios llamados `build` y `node_modules`, respectivamente, junto con todo su contenido.**
+- *`/build/` y `/node_modules/` ignorarán los directorios llamados `build` y `node_modules`, respectivamente, junto con todo su contenido.*
 
 - *Puedes crear y personalizar tu fichero `.gitignore` según las necesidades específicas de tu proyecto. Es importante tener en cuenta que los patrones en este fichero se aplican de manera recursiva a los subdirectorios a menos que se especifique lo contrario.*
 

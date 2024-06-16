@@ -1,6 +1,7 @@
 <!-- Autor: Daniel Benjamin Perez Morales -->
 <!-- GitHub: https://github.com/DanielPerezMoralesDev13 -->
-<!-- Correo electrónico: danielperezdev@proton.me  -->
+<!-- Correo electrónico: danielperezdev@proton.me -->
+
 # ***"Herramientas gráficas (GUI) para Git y GitHub"***
 
 > *Existen varias herramientas gráficas (GUI) para Git y GitHub que ofrecen una interfaz más visual e intuitiva para trabajar con repositorios. Aquí tienes algunas de las herramientas más populares:*

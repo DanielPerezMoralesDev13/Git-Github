@@ -1,14 +1,17 @@
 <!-- Autor: Daniel Benjamin Perez Morales -->
 <!-- GitHub: https://github.com/DanielPerezMoralesDev13 -->
-<!-- Correo electrónico: danielperezdev@proton.me  -->
+<!-- Correo electrónico: danielperezdev@proton.me -->
+
 # ***"Repositorio personal"***
 
 > *Un repositorio personal en GitHub es un espacio donde puedes almacenar y gestionar tus propios proyectos de código fuente, documentos, archivos y más. Aquí tienes algunos pasos para crear y utilizar un repositorio personal en GitHub:*
 
+---
+
 ## ***Crear un repositorio personal:***
 
 1. **Inicia sesión en GitHub:**
-   *Visita [github.com](https://github.com/) e inicia sesión en tu cuenta de GitHub.*
+   *Visita [github.com](https://github.com/ "https://github.com/") e inicia sesión en tu cuenta de GitHub.*
 
 2. **Crea un nuevo repositorio:**
    *En la esquina superior derecha de la página, haz clic en el botón "New". Esto te llevará a una página para crear un nuevo repositorio.*
@@ -22,18 +25,20 @@
 5. **Haz clic en "Create repository":**
    *Una vez que hayas completado la información del repositorio, haz clic en el botón "Create repository" para crearlo.*
 
+---
+
 ### ***Trabajar con tu repositorio personal:***
 
 **Una vez que hayas creado tu repositorio personal, puedes comenzar a trabajar en él:**
 
-- ***Clonar el repositorio:** Utiliza el comando `git clone` para clonar tu repositorio en tu máquina local y comenzar a trabajar en él.*
+- **Clonar el repositorio:** *Utiliza el comando `git clone` para clonar tu repositorio en tu máquina local y comenzar a trabajar en él.*
 
-- ***Agregar archivos:** Agrega archivos a tu repositorio localmente y haz commits para guardar los cambios.*
+- **Agregar archivos:** *Agrega archivos a tu repositorio localmente y haz commits para guardar los cambios.*
 
-- ***Enviar cambios a GitHub:** Utiliza el comando `git push` para enviar tus cambios al repositorio remoto en GitHub.*
+- **Enviar cambios a GitHub:** *Utiliza el comando `git push` para enviar tus cambios al repositorio remoto en GitHub.*
 
-- ***Explorar características adicionales:** Explora características adicionales de GitHub, como la creación de ramas, la colaboración con otros desarrolladores, la gestión de issues y pull requests, y más.*
+- **Explorar características adicionales:** *Explora características adicionales de GitHub, como la creación de ramas, la colaboración con otros desarrolladores, la gestión de issues y pull requests, y más.*
 
-- ***Mantén tu repositorio organizado:** Utiliza carpetas y una estructura de archivos coherente para mantener tu repositorio organizado y fácil de navegar.*
+- **Mantén tu repositorio organizado:** *Utiliza carpetas y una estructura de archivos coherente para mantener tu repositorio organizado y fácil de navegar.*
 
 - *Tu repositorio personal en GitHub es un espacio para almacenar y gestionar tus proyectos de software y otros archivos relacionados con el desarrollo. Utilízalo para colaborar con otros desarrolladores, mostrar tu trabajo y contribuir a la comunidad de código abierto.*

@@ -1,6 +1,7 @@
 <!-- Autor: Daniel Benjamin Perez Morales -->
 <!-- GitHub: https://github.com/DanielPerezMoralesDev13 -->
-<!-- Correo electrónico: danielperezdev@proton.me  -->
+<!-- Correo electrónico: danielperezdev@proton.me -->
+
 # ***"Fork en GitHub"***
 
 - *En GitHub, un "fork" es una copia de un repositorio en el que otro usuario o tú mismo no eres el propietario. Este proceso te permite tomar un repositorio de otra persona o de una organización y crear una copia exacta en tu propia cuenta de GitHub. Aquí tienes una descripción de cómo se utiliza el concepto de "fork" en GitHub:*

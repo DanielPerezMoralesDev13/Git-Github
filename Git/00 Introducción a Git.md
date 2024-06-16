@@ -1,13 +1,14 @@
 <!-- Autor: Daniel Benjamin Perez Morales -->
 <!-- GitHub: https://github.com/DanielPerezMoralesDev13 -->
-<!-- Correo electrónico: danielperezdev@proton.me  -->
+<!-- Correo electrónico: danielperezdev@proton.me -->
+
 # **_Introducción a Git_**
 
 > _Git es un sistema de control de versiones distribuido, lo que significa que cada desarrollador tiene una copia completa del historial del proyecto en su máquina local. Esto permite un alto grado de flexibilidad y eficiencia en el trabajo colaborativo._
 
-- <kbd>Fue creado por Linus Torvalds, el creador de Linux.</kbd>
+- _`<kbd>`Fue creado por Linus Torvalds, el creador de Linux.</kbd>_
 
-> Para instalar Git, puedes seguir los siguientes pasos dependiendo de tu sistema operativo:
+> _Para instalar Git, puedes seguir los siguientes pasos dependiendo de tu sistema operativo:_
 
 **En Windows:**
 
@@ -17,17 +18,19 @@
 
 **En macOS:**
 
-1. Abre la Terminal.
-2. Ejecuta el siguiente comando: `brew install git`.
+1. _Abre la Terminal._
+2. _Ejecuta el siguiente comando: `brew install git`._
 
 **En Linux:**
 
-1. Abre la Terminal.
-2. Ejecuta el siguiente comando: `sudo apt-get install git`.
+1. _Abre la Terminal._
+2. _Ejecuta el siguiente comando: `sudo apt-get install git`._
+
+---
 
 ## _**Comandos básicos de Git**_
 
-Aquí hay algunos comandos básicos de Git que puedes encontrar útiles:
+- _Aquí hay algunos comandos básicos de Git que puedes encontrar útiles:_
 
 - _`git init`: Inicializa un nuevo repositorio Git en tu directorio actual._
 
@@ -42,6 +45,11 @@ Aquí hay algunos comandos básicos de Git que puedes encontrar útiles:
 ```bash
 # Ejemplo de uso de comandos Git
 git init
+```
+
+```bash
+# Ejemplo de uso de comandos Git
+git init Directory
 ```
 
 ```bash
@@ -63,6 +71,8 @@ git commit --message="Añadir README"
 # Ejemplo de uso de comandos Git
 git push origin master
 ```
+
+---
 
 ## _**Enlaces útiles**_
 

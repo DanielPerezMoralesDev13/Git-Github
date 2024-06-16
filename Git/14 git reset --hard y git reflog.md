@@ -1,18 +1,23 @@
 <!-- Autor: Daniel Benjamin Perez Morales -->
 <!-- GitHub: https://github.com/DanielPerezMoralesDev13 -->
-<!-- Correo electrónico: danielperezdev@proton.me  -->
+<!-- Correo electrónico: danielperezdev@proton.me -->
+
 # ***"git reset --hard" y "git reflog"***
 
 - *`git reset --hard` y `git reflog` son comandos y herramientas importantes en Git que se utilizan en situaciones de gestión de cambios y recuperación. Aquí hay una explicación de cada uno:*
+
+---
 
 ## ***`git reset --hard`***
 
 - *El comando `git reset --hard` se utiliza para deshacer cambios en el área de preparación (staging area) y en el directorio de trabajo, llevando la rama actual al commit especificado.*
 
-- *Si se especifica un commit, la rama actual se moverá al commit especificado y se descartarán los cambios en el área de preparación y el directorio de trabajo desde ese punto hasta el último commit.
-- Si no se especifica ningún commit, el comando simplemente deshace todos los cambios en el área de preparación y el directorio de trabajo desde el último commit.*
+- *Si se especifica un commit, la rama actual se moverá al commit especificado y se descartarán los cambios en el área de preparación y el directorio de trabajo desde ese punto hasta el último commit.*
+- *Si no se especifica ningún commit, el comando simplemente deshace todos los cambios en el área de preparación y el directorio de trabajo desde el último commit.*
 
 - *Es importante tener en cuenta que `git reset --hard` puede ser una operación destructiva, ya que descarta los cambios no guardados. Se debe utilizar con precaución, especialmente si hay cambios importantes que no han sido confirmados.*
+
+---
 
 ### ***`git reflog`***
 

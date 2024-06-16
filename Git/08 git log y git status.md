@@ -1,9 +1,12 @@
 <!-- Autor: Daniel Benjamin Perez Morales -->
 <!-- GitHub: https://github.com/DanielPerezMoralesDev13 -->
-<!-- Correo electrónico: danielperezdev@proton.me  -->
+<!-- Correo electrónico: danielperezdev@proton.me -->
+
 # ***"git log" y "git status"***
 
-## **`git status`**
+---
+
+## ***`git status`***
 
 > *El comando `git status` muestra el estado del repositorio actual. Te informa sobre los cambios que se han realizado pero aún no se han confirmado (commit), así como los cambios que se han confirmado pero aún no se han enviado (push) al repositorio remoto.*
 
@@ -11,7 +14,9 @@
 git status
 ```
 
-## **`git log`**
+---
+
+## ***`git log`***
 
 > *El comando `git log` muestra un historial de todos los commits que se han realizado en el repositorio. Cada commit se muestra con su hash de commit, el autor, la fecha y el mensaje de commit.*
 
@@ -55,11 +60,15 @@ git ls-tree -r --name-only <commit>
 git ls-tree -r --name-only <rama>
 ```
 
-### **`git ls-tree -r --name-only <commit>` o `git ls-tree -r --name-only <rama>`**
+---
+
+### ***`git ls-tree -r --name-only <commit>` o `git ls-tree -r --name-only <rama>`***
 
 - *Este comando lista el contenido de los árboles de objetos en el formato especificado ya sea mostrar los ficheros y directorios agregados en una rama especifica la opcion `--name-only` sirve para ver solo el nombre del archivo.*
 
-## **`git reflog`**
+---
+
+## ***`git reflog`***
 
 > *El comando `git reflog` muestra un historial de todas las acciones que han cambiado la HEAD. Es útil si necesitas rastrear cambios que no están asociados con commits, como los merges o los resets.*
 

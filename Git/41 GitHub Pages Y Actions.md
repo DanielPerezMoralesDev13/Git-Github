@@ -1,9 +1,12 @@
 <!-- Autor: Daniel Benjamin Perez Morales -->
 <!-- GitHub: https://github.com/DanielPerezMoralesDev13 -->
-<!-- Correo electrónico: danielperezdev@proton.me  -->
+<!-- Correo electrónico: danielperezdev@proton.me -->
+
 # ***"GitHub Pages Y Actions"***
 
 > *GitHub Pages y GitHub Actions son dos características poderosas de GitHub que se pueden utilizar juntas para automatizar el proceso de publicación de un sitio web estático. Aquí hay una descripción general de cada una:*
+
+---
 
 ## ***GitHub Pages:***
 
@@ -17,6 +20,8 @@
 
 - *Admite la generación de sitios estáticos utilizando Jekyll o cualquier otro generador de sitios estáticos.*
 
+---
+
 ### ***GitHub Actions:***
 
 > *GitHub Actions es un sistema de automatización basado en flujos de trabajo que te permite automatizar tareas comunes y procesos dentro de tu repositorio de GitHub.*
@@ -28,6 +33,8 @@
 - *Utiliza archivos de flujo de trabajo YAML para definir las acciones que deseas realizar.*
 
 - *Se puede integrar con eventos de GitHub, como confirmaciones de código, creación de pull requests, entre otros.*
+
+---
 
 ### ***Integración de GitHub Pages y Actions:***
 

@@ -1,9 +1,12 @@
 <!-- Autor: Daniel Benjamin Perez Morales -->
 <!-- GitHub: https://github.com/DanielPerezMoralesDev13 -->
-<!-- Correo electrónico: danielperezdev@proton.me  -->
+<!-- Correo electrónico: danielperezdev@proton.me -->
+
 # ***"Subida de un proyecto a GitHub"***
 
 > *Para subir un proyecto a GitHub, sigue estos pasos:*
+
+---
 
 ## ***1. Crea un repositorio en GitHub:***
 
@@ -15,6 +18,8 @@
 
 4. *Haz clic en "Create repository" para crear el repositorio.*
 
+---
+
 ### ***2. Inicializa un repositorio local en tu proyecto:***
 
 > *Si aún no tienes un repositorio Git en tu proyecto, inicialízalo ejecutando el siguiente comando en el directorio raíz de tu proyecto:*
@@ -22,6 +27,8 @@
 ```bash
 git init
 ```
+
+---
 
 ### ***3. Agrega los archivos al repositorio:***
 
@@ -31,6 +38,8 @@ git init
 git add .
 ```
 
+---
+
 ### ***4. Realiza un commit de tus cambios:***
 
 > *Crea un commit con los archivos que has agregado al área de preparación utilizando el comando `git commit`. Incluye un mensaje descriptivo que explique los cambios que has realizado. Por ejemplo:*
@@ -38,6 +47,8 @@ git add .
 ```bash
 git commit -m "Initial commit"
 ```
+
+---
 
 ### ***5. Conecta tu repositorio local con el repositorio remoto en GitHub:***
 
@@ -49,6 +60,8 @@ git remote add origin <URL_del_repositorio>
 
 - *Reemplaza `<URL_del_repositorio>` con la URL del repositorio que creaste en GitHub.*
 
+---
+
 ### ***6. Sube tu proyecto a GitHub:***
 
 - *Finalmente, utiliza el comando `git push` para enviar tus cambios al repositorio remoto en GitHub:*
@@ -58,6 +71,8 @@ git push -u origin main
 ```
 
 - *Si estás trabajando en una rama diferente, reemplaza `main` con el nombre de tu rama.*
+
+---
 
 ### ***7. Verifica tu repositorio en GitHub:***
 

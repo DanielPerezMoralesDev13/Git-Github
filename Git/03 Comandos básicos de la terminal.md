@@ -1,6 +1,7 @@
 <!-- Autor: Daniel Benjamin Perez Morales -->
 <!-- GitHub: https://github.com/DanielPerezMoralesDev13 -->
-<!-- Correo electrónico: danielperezdev@proton.me  -->
+<!-- Correo electrónico: danielperezdev@proton.me -->
+
 # ***Comandos básicos de la terminal***
 
 ## **`ls`**
@@ -51,7 +52,7 @@ touch fichero.py
 mkdir directorio
 ```
 
-> Estos son solo algunos de los comandos básicos que puedes usar en la terminal. Para obtener más información sobre estos y otros comandos.
+> *Estos son solo algunos de los comandos básicos que puedes usar en la terminal. Para obtener más información sobre estos y otros comandos.*
 
 ```bash
 man <comando>

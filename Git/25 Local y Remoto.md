@@ -1,9 +1,12 @@
 <!-- Autor: Daniel Benjamin Perez Morales -->
 <!-- GitHub: https://github.com/DanielPerezMoralesDev13 -->
-<!-- Correo electrónico: danielperezdev@proton.me  -->
+<!-- Correo electrónico: danielperezdev@proton.me -->
+
 # ***"Local y Remoto"***
 
 > *En el contexto de Git y GitHub, "local" y "remoto" se refieren a dos ubicaciones diferentes donde se almacena y gestiona el código fuente de un proyecto.*
+
+---
 
 ## ***Repositorio Local:***
 
@@ -29,9 +32,11 @@
   
   - *`git pull`: Obtiene cambios desde el repositorio remoto y los fusiona en tu repositorio local.*
 
+---
+
 ### ***Repositorio Remoto:***
 
-- ***Definición:** Un repositorio remoto es una copia del repositorio de Git que reside en un servidor remoto, como GitHub, GitLab o Bitbucket.*
+- **Definición:** *Un repositorio remoto es una copia del repositorio de Git que reside en un servidor remoto, como GitHub, GitLab o Bitbucket.*
 
 - ***Características:***
   
