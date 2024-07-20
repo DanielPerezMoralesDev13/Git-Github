@@ -27,6 +27,8 @@ git add ./directory
 git add fichero.py
 ```
 
+**Para agregar todos los archivos .py en el directorio actual y subdirectorios:**
+
 ```bash
 git add *.py
 ```
