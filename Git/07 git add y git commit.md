@@ -59,16 +59,7 @@ git commit -m "Tu mensaje de commit aquí"
 git commit --message="Tu mensaje de commit aquí"
 ```
 
-Aquí tienes algunas opciones interesantes del comando `git add`, que te permiten controlar cómo agregas cambios a tu área de preparación (staging area) antes de hacer un commit:
-
----
-
-<!-- Autor: Daniel Benjamin Perez Morales -->
-<!-- GitHub: https://github.com/DanielPerezMoralesDev13 -->
-<!-- Correo electrónico: danielperezdev@proton.me -->
-
-# ***"git add"***
-
+> [!IMPORTANT]
 > *El comando `git add` se utiliza para agregar cambios al área de preparación antes de realizar un commit. Existen varias opciones interesantes que puedes usar con `git add` para personalizar cómo y qué cambios se añaden.*
 
 ---
