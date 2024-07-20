@@ -36,101 +36,103 @@
 
 - **En resumen, si prefieres revisar los cambios antes de fusionarlos, utiliza `git fetch` seguido de un `git merge` o `git rebase`. Si estás seguro de que quieres fusionar los cambios directamente en tu rama local, puedes usar `git pull`.**
 
+---
+
 > [!IMPORTANT]
-> *El comando `git pull` se utiliza para obtener y fusionar cambios del repositorio remoto a la rama actual. Existen varias opciones interesantes que puedes usar con `git pull` para ajustar el proceso de actualización según tus necesidades.*
+> *El comando `git fetch` se utiliza para obtener actualizaciones del repositorio remoto sin aplicarlas automáticamente a tu rama actual. Es una forma segura de ver los cambios en el remoto antes de decidir si integrarlos en tu trabajo local.*
 
 ---
 
-## ***Opciones de `git pull`***
+## ***Opciones de `git fetch`***
 
-1. **`<remoto> <rama>`**
-   - **Función:** *Obtiene y fusiona la rama especificada del repositorio remoto a la rama actual.*
-   - **Uso:** *Permite actualizar la rama actual con los cambios de una rama específica en el remoto.*
+1. **`<remoto>`**
+   - **Función:** *Especifica el nombre del repositorio remoto del cual se deben obtener los cambios.*
+   - **Uso:** *Para obtener actualizaciones de un repositorio remoto específico.*
    - **Ejemplo:**
 
      ```bash
-     git pull origin main
+     git fetch origin
      ```
 
-2. **`--rebase`**
-   - **Función:** *Realiza un rebase en lugar de una fusión al aplicar los cambios del remoto.*
-   - **Uso:** *Para mantener un historial lineal al aplicar cambios en la parte superior de la rama actual en lugar de hacer una fusión.*
+2. **`<remoto> <rama>`**
+   - **Función:** *Obtiene cambios para una rama específica del repositorio remoto.*
+   - **Uso:** *Para obtener actualizaciones solo para una rama específica en lugar de todas las ramas.*
    - **Ejemplo:**
 
      ```bash
-     git pull --rebase origin main
+     git fetch origin main
      ```
 
-3. **`--no-rebase`**
-   - **Función:** *Desactiva el rebase si está configurado por defecto y realiza una fusión tradicional.*
-   - **Uso:** *Usado para forzar una fusión en lugar de un rebase si la configuración predeterminada es diferente.*
+3. **`--all`**
+   - **Función:** *Obtiene cambios de todos los repositorios remotos configurados.*
+   - **Uso:** *Para actualizar todas las referencias locales desde todos los remotos.*
    - **Ejemplo:**
 
      ```bash
-     git pull --no-rebase origin main
+     git fetch --all
      ```
 
-4. **`--ff-only`**
-   - **Función:** *Permite la fusión solo si puede ser realizada como un avance rápido (fast-forward).*
-   - **Uso:** *Para evitar fusiones que requieren una fusión de commits no lineales.*
+4. **`--prune`**
+   - **Función:** *Elimina las ramas remotas que han sido eliminadas en el repositorio remoto.*
+   - **Uso:** *Para limpiar las referencias a ramas remotas que ya no existen.*
    - **Ejemplo:**
 
      ```bash
-     git pull --ff-only origin main
+     git fetch --prune
      ```
 
-5. **`--no-commit`**
-   - **Función:** *Realiza la fusión pero no hace commit automáticamente.*
-   - **Uso:** *Permite revisar los cambios antes de confirmar la fusión.*
+5. **`--depth <n>`**
+   - **Función:** *Obtiene solo los últimos `n` commits del repositorio remoto, creando una clonación superficial.*
+   - **Uso:** *Para obtener una historia limitada y reducir el tamaño de la descarga.*
    - **Ejemplo:**
 
      ```bash
-     git pull --no-commit origin main
+     git fetch --depth 1
      ```
 
-6. **`--no-ff`**
-   - **Función:** *Realiza una fusión sin avance rápido, creando siempre un nuevo commit de fusión.*
-   - **Uso:** *Para asegurar que la fusión se registre explícitamente en el historial.*
+6. **`--no-tags`**
+   - **Función:** *No obtiene las etiquetas del repositorio remoto.*
+   - **Uso:** *Para evitar la descarga de etiquetas si no son necesarias.*
    - **Ejemplo:**
 
      ```bash
-     git pull --no-ff origin main
+     git fetch --no-tags
      ```
 
-7. **`--quiet` o `-q`**
+7. **`--tags`**
+   - **Función:** *Obtiene todas las etiquetas del repositorio remoto.*
+   - **Uso:** *Para actualizar todas las referencias de etiquetas desde el remoto.*
+   - **Ejemplo:**
+
+     ```bash
+     git fetch --tags
+     ```
+
+8. **`--quiet` o `-q`**
    - **Función:** *Suprime la salida del comando para que solo se muestren los errores.*
-   - **Uso:** *Para una salida menos verbosa durante la actualización.*
+   - **Uso:** *Para una salida menos detallada durante la actualización.*
    - **Ejemplo:**
 
      ```bash
-     git pull --quiet origin main
+     git fetch --quiet
      ```
 
-8. **`--verbose` o `-v`**
-   - **Función:** *Muestra información detallada sobre el proceso de actualización.*
-   - **Uso:** *Para ver más detalles sobre los cambios y el proceso de fusión.*
+9. **`--verbose` o `-v`**
+   - **Función:** *Muestra información detallada sobre el proceso de obtención.*
+   - **Uso:** *Para ver más detalles sobre qué cambios se están obteniendo.*
    - **Ejemplo:**
 
      ```bash
-     git pull --verbose origin main
+     git fetch --verbose
      ```
 
-9. **`--all`**
-   - **Función:** *Obtiene y fusiona cambios de todas las ramas remotas.*
-   - **Uso:** *Actualiza todas las ramas locales con sus ramas remotas correspondientes.*
-   - **Ejemplo:**
-
-     ```bash
-     git pull --all
-     ```
-
-10. **`--squash`**
-    - **Función:** *Obtiene los cambios del remoto y los aplasta (squash) en un solo commit, sin hacer una fusión completa.*
-    - **Uso:** *Para combinar todos los commits de la rama remota en un solo commit.*
+10. **`--no-recurse-submodules`**
+    - **Función:** *No obtiene actualizaciones para submódulos.*
+    - **Uso:** *Para evitar la actualización de submódulos si solo quieres obtener los cambios del repositorio principal.*
     - **Ejemplo:**
 
       ```bash
-      git pull --squash origin main
+      git fetch --no-recurse-submodules
       ```
 
-*Estas opciones te permiten ajustar cómo se obtienen y aplican los cambios del repositorio remoto, proporcionando flexibilidad para manejar diferentes escenarios de actualización.*
+*Estas opciones te permiten personalizar la forma en que obtienes los cambios del repositorio remoto, proporcionando flexibilidad para manejar diferentes escenarios y necesidades.*
