@@ -16,7 +16,19 @@ git add .
 ```
 
 ```bash
+git add ..
+```
+
+```bash
+git add ./directory
+```
+
+```bash
 git add fichero.py
+```
+
+```bash
+git add *.py
 ```
 
 ## **`git commit`**
