@@ -8,7 +8,7 @@
 
 ## ***Introducción***
 
-*Git es un sistema de control de versiones ampliamente utilizado que maneja archivos y nombres de archivos en diversos sistemas operativos y configuraciones regionales. Para asegurar que Git maneje correctamente los caracteres UTF-8 (como tildes, eñes, caracteres acentuados, etc.), es importante configurarlo adecuadamente.*
+*Git es un sistema de control de versiones ampliamente utilizado que maneja ficheros y nombres de ficheros en diversos sistemas operativos y configuraciones regionales. Para asegurar que Git maneje correctamente los caracteres UTF-8 (como tildes, eñes, caracteres acentuados, etc.), es importante configurarlo adecuadamente.*
 
 *Este documento explica por qué ocurren los problemas con los caracteres UTF-8 en Git, cómo resolverlos y proporciona detalles sobre los comandos específicos que se utilizan para configurar Git correctamente.*
 
@@ -16,9 +16,9 @@
 
 ## ***Problema***
 
-*Cuando los nombres de archivos contienen caracteres no ASCII, Git puede mostrar estos caracteres de manera incorrecta en la consola, utilizando una notación octal entre comillas en lugar de los caracteres Unicode reales. Esto puede hacer que los nombres de archivos sean difíciles de leer y entender, especialmente en contextos multilingües o internacionales.*
+*Cuando los nombres de ficheros contienen caracteres no ASCII, Git puede mostrar estos caracteres de manera incorrecta en la consola, utilizando una notación octal entre comillas en lugar de los caracteres Unicode reales. Esto puede hacer que los nombres de ficheros sean difíciles de leer y entender, especialmente en contextos multilingües o internacionales.*
 
-*Por ejemplo, un archivo llamado `canción.txt` podría aparecer como `"canci\303\263n.txt"` en la salida de Git.*
+*Por ejemplo, un fichero llamado `canción.txt` podría aparecer como `"canci\303\263n.txt"` en la salida de Git.*
 
 ---
 
@@ -41,13 +41,13 @@ git config --global i18n.logoutputencoding utf-8
 
 ### ***Paso 2: Configuración de core.quotepath***
 
-- *Configura Git para que muestre los nombres de archivo no ASCII directamente como caracteres Unicode en lugar de su representación octal.*
+- *Configura Git para que muestre los nombres de fichero no ASCII directamente como caracteres Unicode en lugar de su representación octal.*
 
 ```bash
 git config --global core.quotepath off
 ```
 
-*Este comando desactiva la notación octal entre comillas (`"\nnn\nnn..."`) para los nombres de archivo no ASCII en la salida de Git, mejorando la legibilidad.*
+*Este comando desactiva la notación octal entre comillas (`"\nnn\nnn..."`) para los nombres de fichero no ASCII en la salida de Git, mejorando la legibilidad.*
 
 ### ***Paso 3: Verificación de la Configuración***
 
@@ -78,19 +78,19 @@ i18n.logoutputencoding=utf-
 
 ### ***Paso 4: Entendiendo core.precomposeunicode (si es necesario)***
 
-*En sistemas como macOS, donde los nombres de archivo pueden estar en forma descompuesta (NFD) en lugar de la forma precompuesta (NFC), también puedes configurar:*
+*En sistemas como macOS, donde los nombres de fichero pueden estar en forma descompuesta (NFD) en lugar de la forma precompuesta (NFC), también puedes configurar:*
 
 ```bash
 git config --global core.precomposeunicode true
 ```
 
-*Esto ayuda a manejar nombres de archivo Unicode de manera coherente entre diferentes sistemas de archivos.*
+*Esto ayuda a manejar nombres de fichero Unicode de manera coherente entre diferentes sistemas de ficheros.*
 
 ---
 
 ### ***Paso 5: Cambios Visibles en la Consola***
 
-*Después de configurar Git correctamente, los nombres de archivo con caracteres UTF-8 deberían mostrarse correctamente en la consola, sin la notación octal entre comillas.*
+*Después de configurar Git correctamente, los nombres de fichero con caracteres UTF-8 deberían mostrarse correctamente en la consola, sin la notación octal entre comillas.*
 
 ---
 

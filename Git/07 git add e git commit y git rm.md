@@ -27,7 +27,7 @@ git add ./directory
 git add fichero.py
 ```
 
-**Para agregar todos los archivos .py en el directorio actual y subdirectorios:**
+**Para agregar todos los ficheros .py en el directorio actual y subdirectorios:**
 
 ```bash
 git add *.py
@@ -318,3 +318,66 @@ Aquí tienes algunas opciones interesantes del comando `git commit`, que te perm
       ```
 
 *Estas opciones te permiten ajustar el comportamiento del comando `git commit` según tus necesidades y facilitar un flujo de trabajo más eficiente.*
+
+### ***Ejemplo básico de `git rm`***
+
+- **El comando `git rm` se utiliza para eliminar ficheros de tu índice de Git (staging area) y, opcionalmente, de tu directorio de trabajo. Aquí hay un ejemplo y una explicación de sus flags y para qué sirven:**
+
+- **Supongamos que tienes un fichero llamado `fichero.txt` en tu repositorio y quieres eliminarlo:**
+
+```bash
+git rm fichero.txt
+```
+
+**Este comando hará lo siguiente:**
+
+1. *Eliminará `fichero.txt` del índice de Git.*
+2. *Eliminará `fichero.txt` del directorio de trabajo.*
+
+### ***Flags comunes de `git rm`***
+
+1. **`-f` o `--force`:**
+   - *Si el fichero tiene cambios que no se han registrado (no commit), Git no permitirá eliminarlo sin esta opción. Usar `-f` o `--force` fuerza la eliminación.*
+
+   ```bash
+   git rm -f fichero.txt
+   ```
+
+2. **`--cached`:**
+   - *Elimina el fichero del índice, pero lo deja en el directorio de trabajo. Esto es útil si deseas que el fichero ya no esté en seguimiento por Git pero quieres conservarlo en tu proyecto local.*
+
+   ```bash
+   git rm --cached fichero.txt
+   ```
+
+3. **`-r` o `--recursive`:**
+   - *Permite eliminar directorios y sus contenidos recursivamente. Útil cuando necesitas eliminar varios ficheros o directorios a la vez.*
+
+   ```bash
+   git rm -r directorio/
+   ```
+
+4. **`-n` o `--dry-run`:**
+   - *Muestra qué ficheros se eliminarían sin realizar ninguna acción. Útil para ver qué pasará sin hacer cambios reales.*
+
+   ```bash
+   git rm -n fichero.txt
+   ```
+
+### ***Ejemplo combinado***
+
+**Si deseas eliminar un fichero del índice pero conservarlo en tu directorio de trabajo, forzar la eliminación y aplicar recursivamente:**
+
+```bash
+git rm --cached -f -r directorio/
+```
+
+### ***Resumen***
+
+- **`git rm fichero.txt`:** *Elimina `fichero.txt` del índice y del directorio de trabajo.*
+- **`git rm -f fichero.txt`:** *Fuerza la eliminación de `fichero.txt` incluso si tiene cambios no registrados.*
+- **`git rm --cached fichero.txt`:** *Elimina `fichero.txt` del índice pero lo conserva en el directorio de trabajo.*
+- **`git rm -r directorio/`:** *Elimina la directorio y su contenido recursivamente.*
+- **`git rm -n fichero.txt`:** *Muestra qué ficheros se eliminarían sin realizar la acción.*
+
+- *Con estos ejemplos y flags, puedes gestionar la eliminación de ficheros y directorios en tu repositorio de Git de manera efectiva.*

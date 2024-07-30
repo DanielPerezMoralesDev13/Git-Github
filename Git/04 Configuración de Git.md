@@ -4,13 +4,13 @@
 
 # ***Configuración de Git***
 
-> *La configuración de usuario de Git se almacena en un archivo llamado `.gitconfig` que se encuentra en tu directorio de inicio. La ruta exacta del archivo dependerá de tu sistema operativo:*
+> *La configuración de usuario de Git se almacena en un fichero llamado `.gitconfig` que se encuentra en tu directorio de inicio. La ruta exacta del fichero dependerá de tu sistema operativo:*
 
 - *En Linux y Mac, la ruta será `~/.gitconfig`.*
 
 - *En Windows, la ruta será `C:\Users\<TuNombreDeUsuario>\.gitconfig`.*
 
-> *Puedes ver la configuración de tu usuario en este archivo con un editor de texto, o puedes usar el comando `git config --list` para listar todas las configuraciones de Git actuales en la terminal.*
+> *Puedes ver la configuración de tu usuario en este fichero con un editor de texto, o puedes usar el comando `git config --list` para listar todas las configuraciones de Git actuales en la terminal.*
 
 ```bash
 git config --list
@@ -144,7 +144,7 @@ git push --set-upstream origin master
 git mv main.py lib.py
 ```
 
-- *`git mv main.py lib.py`: Este comando renombra el archivo `main.py` a `lib.py` dentro del repositorio Git. Git detectará automáticamente el cambio y lo registrará como una modificación de archivo.*
+- *`git mv main.py lib.py`: Este comando renombra el fichero `main.py` a `lib.py` dentro del repositorio Git. Git detectará automáticamente el cambio y lo registrará como una modificación de fichero.*
 
 ---
 

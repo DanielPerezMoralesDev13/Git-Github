@@ -15,13 +15,13 @@
 *.out
 *.py
 
-# Ignorar todos los archivos dentro de la carpeta fotos
+# Ignorar todos los ficheros dentro de la directorio fotos
 fotos/
 
-# Excepto el archivo background.png dentro de la carpeta fotos
+# Excepto el fichero background.png dentro de la directorio fotos
 !fotos/background.png
 
-# No ignorar "main.py" incluso si otros archivos están siendo ignorados
+# No ignorar "main.py" incluso si otros ficheros están siendo ignorados
 !main.py
 
 # Ignorar ficheros de objetos compilados en C
@@ -56,11 +56,11 @@ proyecto/
 
 - *`*.o` e `*.out` y `*.py` ignorarán todos los ficheros con extensión `.o` e `.out` y `*.py`, respectivamente.*
 
-- *`fotos/` indica que se deben ignorar todos los archivos y subdirectorios dentro de la carpeta fotos.*
+- *`fotos/` indica que se deben ignorar todos los ficheros y subdirectorios dentro de la directorio fotos.*
 
-- *`!fotos/background.png` anula la regla anterior y especifica que el archivo background.png dentro de la carpeta fotos no debe ser ignorado. La exclamación ! se utiliza para negar la regla de ignorar.*
+- *`!fotos/background.png` anula la regla anterior y especifica que el fichero background.png dentro de la directorio fotos no debe ser ignorado. La exclamación ! se utiliza para negar la regla de ignorar.*
 
-- *`!main.py` especifica que el archivo main.py no debe ser ignorado, incluso si otros archivos están siendo ignorados por otras reglas en el .gitignore.*
+- *`!main.py` especifica que el fichero main.py no debe ser ignorado, incluso si otros ficheros están siendo ignorados por otras reglas en el .gitignore.*
 
 - *`*.c~` ignorará todos los ficheros que terminen en `.c~`.*
 
@@ -76,4 +76,4 @@ proyecto/
 git config --global core.excludesfile sda/sda1/directory/.gitignore
 ```
 
-- *`git config --global core.excludesfile sda/sda1/directory/.gitignore`: Este comando configura un archivo `.gitignore` global para tu usuario. Especifica la ubicación del archivo `.gitignore` global en el directorio `sda/sda1/directory`. Los patrones de ignorados definidos en este archivo se aplicarán a todos los repositorios en tu sistema.*
+- *`git config --global core.excludesfile sda/sda1/directory/.gitignore`: Este comando configura un fichero `.gitignore` global para tu usuario. Especifica la ubicación del fichero `.gitignore` global en el directorio `sda/sda1/directory`. Los patrones de ignorados definidos en este fichero se aplicarán a todos los repositorios en tu sistema.*

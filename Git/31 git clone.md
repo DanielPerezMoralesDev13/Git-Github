@@ -95,7 +95,7 @@ git clone https://github.com/usuario/proyecto.git ../mi_proyecto
      ```
 
 7. **`--bare`**
-   - **Función:** *Crea un repositorio "bare", es decir, sin un directorio de trabajo. El repositorio solo contiene los datos del repositorio y no los archivos de trabajo.*
+   - **Función:** *Crea un repositorio "bare", es decir, sin un directorio de trabajo. El repositorio solo contiene los datos del repositorio y no los ficheros de trabajo.*
    - **Uso:** *Se utiliza a menudo para configurar repositorios de servidor.*
    - **Ejemplo:**
 
@@ -113,8 +113,8 @@ git clone https://github.com/usuario/proyecto.git ../mi_proyecto
      ```
 
 9. **`--no-checkout`**
-   - **Función:** *Clona el repositorio sin hacer checkout del código, es decir, no coloca los archivos en el directorio de trabajo.*
-   - **Uso:** *Útil si solo necesitas los datos del repositorio pero no los archivos en tu sistema de archivos.*
+   - **Función:** *Clona el repositorio sin hacer checkout del código, es decir, no coloca los ficheros en el directorio de trabajo.*
+   - **Uso:** *Útil si solo necesitas los datos del repositorio pero no los ficheros en tu sistema de ficheros.*
    - **Ejemplo:**
 
      ```bash

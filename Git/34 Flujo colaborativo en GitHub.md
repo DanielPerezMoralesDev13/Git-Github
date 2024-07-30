@@ -28,7 +28,7 @@
 
 6. **Hacer Commit de los Cambios:**
 
-   - *Después de realizar los cambios, los colaboradores deben hacer commit de sus cambios utilizando el comando `git add .` para agregar los archivos modificados y `git commit -m "Mensaje del commit"` para realizar el commit con un mensaje descriptivo.*
+   - *Después de realizar los cambios, los colaboradores deben hacer commit de sus cambios utilizando el comando `git add .` para agregar los ficheros modificados y `git commit -m "Mensaje del commit"` para realizar el commit con un mensaje descriptivo.*
 
 7. **Enviar los Cambios al Fork:**
 

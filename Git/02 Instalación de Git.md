@@ -10,7 +10,7 @@
 
 1. *Descarga el instalador de Git desde [la página oficial de Git](https://git-scm.com/download/win).*
 
-2. *Ejecuta el archivo descargado y sigue las instrucciones del instalador.*
+2. *Ejecuta el fichero descargado y sigue las instrucciones del instalador.*
 
 ```bash
 # No hay comandos de terminal necesarios para la instalación en Windows

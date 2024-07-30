@@ -14,7 +14,7 @@
 
 1. _Descarga el instalador de Git desde [la página oficial de Git](https://git-scm.com/download/win)._
 
-2. _Ejecuta el archivo descargado y sigue las instrucciones del instalador._
+2. _Ejecuta el fichero descargado y sigue las instrucciones del instalador._
 
 **En macOS:**
 
@@ -36,7 +36,7 @@
 
 - _`git clone [url]`: Clona un repositorio Git existente._
 
-- _`git add [archivo]`: Agrega un archivo al área de preparación de Git._
+- _`git add [fichero]`: Agrega un fichero al área de preparación de Git._
 
 - _`git commit -m "[mensaje]"` o `git commit --message= "[mensaje]"`: Crea un nuevo commit con los cambios que has agregado al área de preparación._
 

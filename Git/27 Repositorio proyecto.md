@@ -28,7 +28,7 @@
 
 - *Elige si quieres que el repositorio sea público o privado. Un repositorio público será visible para todos, mientras que un repositorio privado solo será accesible para ti y las personas que invites.*
 
-- *Opcionalmente, puedes agregar un archivo README, un archivo `.gitignore` y elegir una licencia para tu proyecto.*
+- *Opcionalmente, puedes agregar un fichero README, un fichero `.gitignore` y elegir una licencia para tu proyecto.*
 
 ---
 
@@ -52,7 +52,7 @@ git clone <URL_del_repositorio>
 
 ### ***6. Trabaja en tu proyecto:***
 
-> *Una vez que hayas clonado el repositorio, puedes agregar archivos, hacer commits y realizar otras operaciones de control de versiones en tu proyecto localmente.*
+> *Una vez que hayas clonado el repositorio, puedes agregar ficheros, hacer commits y realizar otras operaciones de control de versiones en tu proyecto localmente.*
 
 ---
 

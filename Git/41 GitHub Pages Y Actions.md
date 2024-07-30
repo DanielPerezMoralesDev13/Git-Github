@@ -30,7 +30,7 @@
 
 - *Te permite automatizar tareas como pruebas, compilaciones, despliegues, entre otros.*
 
-- *Utiliza archivos de flujo de trabajo YAML para definir las acciones que deseas realizar.*
+- *Utiliza ficheros de flujo de trabajo YAML para definir las acciones que deseas realizar.*
 
 - *Se puede integrar con eventos de GitHub, como confirmaciones de código, creación de pull requests, entre otros.*
 

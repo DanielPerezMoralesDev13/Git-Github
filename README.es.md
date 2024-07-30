@@ -39,7 +39,7 @@
 
 ## ***Uso***
 
-> *Para acceder a la guía, simplemente navega por los diferentes directorios y archivos Markdown en este repositorio. Cada sección está organizada de manera lógica y contiene información clara y concisa para ayudarte a comprender y utilizar Git y GitHub de manera efectiva.*
+> *Para acceder a la guía, simplemente navega por los diferentes directorios y ficheros Markdown en este repositorio. Cada sección está organizada de manera lógica y contiene información clara y concisa para ayudarte a comprender y utilizar Git y GitHub de manera efectiva.*
 
 ## ***Contribuciones***
 

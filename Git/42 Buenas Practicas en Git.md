@@ -14,7 +14,7 @@
 
 5. **Resolución de conflictos oportuna:** *Resuelve los conflictos de fusión tan pronto como aparezcan para evitar complicaciones posteriores y mantener un flujo de trabajo fluido.*
 
-6. **Uso de `.gitignore`:** *Utiliza el archivo `.gitignore` para ignorar archivos y directorios que no deben ser versionados, como archivos generados automáticamente, dependencias de paquetes y archivos de configuración local.*
+6. **Uso de `.gitignore`:** *Utiliza el fichero `.gitignore` para ignorar ficheros y directorios que no deben ser versionados, como ficheros generados automáticamente, dependencias de paquetes y ficheros de configuración local.*
 
 7. ***Revisión de cambios antes de confirmar:** Revisa tus cambios utilizando `git diff` antes de confirmarlos para asegurarte de que estás incluyendo todos los cambios deseados y no estás introduciendo cambios no deseados.*
 
@@ -139,7 +139,7 @@ echo "Ejecutando pre-commit hook..."
 
 ### ***Documentación:***
 
-> *Es importante documentar estos procesos en el archivo README.md de tu repositorio para que los miembros del equipo puedan entender cómo funcionan y cómo utilizarlos. Puedes proporcionar ejemplos de código y capturas de pantalla para una mejor comprensión. Además, puedes crear carpetas adicionales dentro del repositorio para almacenar scripts de ganchos y submódulos, y documentar su propósito y uso en archivos README.md dentro de esas carpetas.*
+> *Es importante documentar estos procesos en el fichero README.md de tu repositorio para que los miembros del equipo puedan entender cómo funcionan y cómo utilizarlos. Puedes proporcionar ejemplos de código y capturas de pantalla para una mejor comprensión. Además, puedes crear directorios adicionales dentro del repositorio para almacenar scripts de ganchos y submódulos, y documentar su propósito y uso en ficheros README.md dentro de esas directorios.*
 
 ---
 
@@ -157,7 +157,7 @@ echo "Ejecutando pre-commit hook..."
    git submodule add https://github.com/usuario/BibliotecaX.git biblioteca_x
    ```
 
-   *Esto agregará la biblioteca como un submódulo en tu repositorio en la carpeta `biblioteca_x`.*
+   *Esto agregará la biblioteca como un submódulo en tu repositorio en la directorio `biblioteca_x`.*
 
    - *En Git, la extensión .git al final de la URL del repositorio es opcional y no afecta al funcionamiento del comando git submodule add. Ambas formas de la URL funcionarán igualmente bien y agregarán el repositorio como un submódulo en tu proyecto.*
 
@@ -288,21 +288,21 @@ echo "Ejecutando pre-commit hook..."
 
 ### ***Git Hooks:***
 
-**Supongamos que quieres asegurarte de que ningún archivo `.txt` se incluya en los commits. Puedes usar un gancho pre-commit para verificar esto.**
+**Supongamos que quieres asegurarte de que ningún fichero `.txt` se incluya en los commits. Puedes usar un gancho pre-commit para verificar esto.**
 
 1. ***Crear un gancho pre-commit:***
 
-   **Creas un archivo llamado `pre-commit` en la carpeta `.git/hooks` dentro de tu repositorio con el siguiente contenido:**
+   **Creas un fichero llamado `pre-commit` en la directorio `.git/hooks` dentro de tu repositorio con el siguiente contenido:**
 
    ```bash
    #!/bin/sh
    if git diff --cached --name-only | grep '\.txt$' > /dev/null; then
-       echo "Error: No se permiten archivos .txt en los commits."
+       echo "Error: No se permiten ficheros .txt en los commits."
        exit 1
    fi
    ```
 
-   *Esto evitará que se realice un commit si hay archivos `.txt` en la etapa de preparación.*
+   *Esto evitará que se realice un commit si hay ficheros `.txt` en la etapa de preparación.*
 
 ---
 
@@ -337,7 +337,7 @@ echo "Ejecutando pre-commit hook..."
 
 ### ***`.gitmodules`***
 
-- *El archivo `.gitmodules` es un archivo de configuración utilizado por Git para almacenar información sobre los submódulos dentro de un repositorio. Cada entrada en este archivo representa un submódulo en el repositorio principal e incluye información como la ruta del submódulo dentro del repositorio, su URL remota y cualquier configuración adicional relevante.*
+- *El fichero `.gitmodules` es un fichero de configuración utilizado por Git para almacenar información sobre los submódulos dentro de un repositorio. Cada entrada en este fichero representa un submódulo en el repositorio principal e incluye información como la ruta del submódulo dentro del repositorio, su URL remota y cualquier configuración adicional relevante.*
 
 **En tu ejemplo específico:**
 
@@ -353,6 +353,6 @@ echo "Ejecutando pre-commit hook..."
 
 - *`url = https://github.com/user/repository`: Esta línea especifica la URL remota del repositorio del submódulo. Indica la ubicación desde la cual el submódulo será clonado cuando se inicialice en el repositorio principal.*
 
-- *En resumen, el archivo `.gitmodules` es esencial para mantener la información necesaria sobre los submódulos en un repositorio Git. Permite que Git gestione los submódulos de manera adecuada y automática, facilitando su clonación y actualización dentro del repositorio principal.*
+- *En resumen, el fichero `.gitmodules` es esencial para mantener la información necesaria sobre los submódulos en un repositorio Git. Permite que Git gestione los submódulos de manera adecuada y automática, facilitando su clonación y actualización dentro del repositorio principal.*
 
 *Estos son ejemplos de cómo usar submódulos, ganchos de Git y Git Bisect en situaciones reales para mejorar tu flujo de trabajo y mantener la calidad de tu código.*

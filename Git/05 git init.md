@@ -21,7 +21,6 @@ git init .
 git init ../repositorio
 ```
 
-
 ```bash
 git init ./directorio/repositorio
 ```
@@ -57,7 +56,7 @@ git clone git@github.com:usuario/repositorio.git
      ```
 
 2. **`--template=<directory>`**
-   - **Función:** *Especifica un directorio de plantillas para usar durante la inicialización del repositorio. Esto permite preconfigurar el repositorio con hooks, configuraciones, y otros archivos personalizados.*
+   - **Función:** *Especifica un directorio de plantillas para usar durante la inicialización del repositorio. Esto permite preconfigurar el repositorio con hooks, configuraciones, y otros ficheros personalizados.*
    - **Uso:** *Útil para aplicar configuraciones predeterminadas a todos los nuevos repositorios.*
    - **Ejemplo:**
 
@@ -75,7 +74,7 @@ git clone git@github.com:usuario/repositorio.git
      ```
 
 4. **`--separate-git-dir=<directory>`**
-   - **Función:** *Configura un directorio separado para el almacenamiento de los archivos de Git, manteniendo el repositorio en un directorio diferente al directorio de trabajo.*
+   - **Función:** *Configura un directorio separado para el almacenamiento de los ficheros de Git, manteniendo el repositorio en un directorio diferente al directorio de trabajo.*
    - **Uso:** *Para mantener el directorio de trabajo y el directorio Git separados.*
    - **Ejemplo:**
 

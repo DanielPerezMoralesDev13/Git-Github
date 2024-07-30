@@ -10,7 +10,7 @@
 
 ## ***Repositorios:***
 
-- **Repositorio:** *Un repositorio en GitHub es un espacio donde se almacena y gestiona el código fuente de un proyecto. Puede contener archivos de código, documentos, imágenes y más.*
+- **Repositorio:** *Un repositorio en GitHub es un espacio donde se almacena y gestiona el código fuente de un proyecto. Puede contener ficheros de código, documentos, imágenes y más.*
 
 - **Clonar:** *Clonar un repositorio significa crear una copia local del repositorio en tu máquina para trabajar con él.*
 
@@ -42,7 +42,7 @@
 
 - **GitHu Pages:** *GitHub Pages es un servicio que permite publicar sitios web directamente desde un repositorio en GitHub.*
 
-- **Gists:** *Los Gists son pequeños fragmentos de código, notas o archivos que pueden compartirse fácilmente en GitHub.*
+- **Gists:** *Los Gists son pequeños fragmentos de código, notas o ficheros que pueden compartirse fácilmente en GitHub.*
 
 - **Organizaciones:** *Las organizaciones en GitHub permiten a grupos de personas colaborar en proyectos y administrar permisos de acceso de forma centralizada.*
 

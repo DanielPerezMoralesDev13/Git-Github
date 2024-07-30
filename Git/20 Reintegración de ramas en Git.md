@@ -36,7 +36,7 @@
    git merge mi-rama
    ```
 
-4. **Resuelve los conflictos si es necesario:** *Si hay conflictos entre los cambios de la rama principal y los de la rama secundaria, Git te notificará y marcará los archivos en conflicto. Deberás resolver estos conflictos manualmente antes de continuar con la fusión.*
+4. **Resuelve los conflictos si es necesario:** *Si hay conflictos entre los cambios de la rama principal y los de la rama secundaria, Git te notificará y marcará los ficheros en conflicto. Deberás resolver estos conflictos manualmente antes de continuar con la fusión.*
 
 5. **Confirma la fusión:** *Después de resolver cualquier conflicto, confirma la fusión utilizando `git commit` si es necesario. Si no hay conflictos, Git creará automáticamente un commit de fusión.*
 

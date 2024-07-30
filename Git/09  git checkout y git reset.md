@@ -36,9 +36,9 @@ git checkout <commit> -- <fichero>  # Restaurar un fichero específico desde un 
 git checkout <commit>            # Mover HEAD a un commit específico (modo detached HEAD)
 ```
 
-- *Los guiones dobles (`--`) en la sintaxis de `git checkout -- <fichero>` indican que lo que sigue a ellos no es una opción de línea de comandos, sino que es un argumento que se debe tratar como tal. Esto es especialmente útil cuando el nombre del archivo puede ser interpretado incorrectamente como una opción por Git.*
+- *Los guiones dobles (`--`) en la sintaxis de `git checkout -- <fichero>` indican que lo que sigue a ellos no es una opción de línea de comandos, sino que es un argumento que se debe tratar como tal. Esto es especialmente útil cuando el nombre del fichero puede ser interpretado incorrectamente como una opción por Git.*
 
-- *Por ejemplo, si tienes un archivo fichero `master` en tu repositorio y ejecutas `git checkout master`, Git podría interpretarlo como un intento de cambiar a la rama `master`. Sin embargo, si en realidad deseas deshacer los cambios en un archivo fichero `master`, deberías usar `git checkout -- master`.*
+- *Por ejemplo, si tienes un fichero fichero `master` en tu repositorio y ejecutas `git checkout master`, Git podría interpretarlo como un intento de cambiar a la rama `master`. Sin embargo, si en realidad deseas deshacer los cambios en un fichero fichero `master`, deberías usar `git checkout -- master`.*
 
 - *Entonces, en resumen, los guiones dobles (`--`) indican que no hay más opciones de línea de comandos después de ellos, lo que ayuda a evitar confusiones y asegura que cualquier texto que siga se interprete correctamente como un argumento.*
 

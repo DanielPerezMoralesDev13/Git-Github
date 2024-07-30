@@ -6,7 +6,7 @@
 
 ## **`ls`**
 
-> *El comando `ls` se utiliza para listar los archivos y directorios en el directorio actual.*
+> *El comando `ls` se utiliza para listar los ficheros y directorios en el directorio actual.*
 
 ```bash
 ls
@@ -30,7 +30,7 @@ cd /ruta/al/directorio
 
 ## **`ls -a`**
 
-> *El comando `ls -a` se utiliza para listar todos los archivos y directorios en el directorio actual, incluyendo los archivos ocultos (aquellos cuyos nombres comienzan con `.`).*
+> *El comando `ls -a` se utiliza para listar todos los ficheros y directorios en el directorio actual, incluyendo los ficheros ocultos (aquellos cuyos nombres comienzan con `.`).*
 
 ```bash
 ls -a

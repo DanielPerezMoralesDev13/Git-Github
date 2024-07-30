@@ -64,7 +64,7 @@ git ls-tree -r --name-only <rama>
 
 ### ***`git ls-tree -r --name-only <commit>` o `git ls-tree -r --name-only <rama>`***
 
-- *Este comando lista el contenido de los árboles de objetos en el formato especificado ya sea mostrar los ficheros y directorios agregados en una rama especifica la opcion `--name-only` sirve para ver solo el nombre del archivo.*
+- *Este comando lista el contenido de los árboles de objetos en el formato especificado ya sea mostrar los ficheros y directorios agregados en una rama especifica la opcion `--name-only` sirve para ver solo el nombre del fichero.*
 
 ---
 
@@ -111,7 +111,7 @@ git reflog
      ```
 
 4. **`--stat`**
-   - **Función:** *Muestra un resumen de los cambios en cada commit, incluyendo el número de archivos modificados y las líneas añadidas/eliminadas.*
+   - **Función:** *Muestra un resumen de los cambios en cada commit, incluyendo el número de ficheros modificados y las líneas añadidas/eliminadas.*
    - **Uso:** *Para ver un resumen estadístico de los cambios en el historial.*
    - **Ejemplo:**
 
@@ -204,7 +204,7 @@ git reflog
 
 1. **`--short` o `-s`**
    - **Función:** *Muestra el estado en un formato resumido, con una representación concisa de los cambios.*
-   - **Uso:** *Para obtener una vista rápida del estado de los archivos en el repositorio.*
+   - **Uso:** *Para obtener una vista rápida del estado de los ficheros en el repositorio.*
    - **Ejemplo:**
 
      ```bash
@@ -221,8 +221,8 @@ git reflog
      ```
 
 3. **`--untracked-files`**
-   - **Función:** *Controla la visibilidad de los archivos no rastreados. Puede ser `no`, `normal`, o `all` para ajustar la cantidad de información mostrada sobre archivos no rastreados.*
-   - **Uso:** *Para ajustar cómo se muestran los archivos no rastreados en el estado.*
+   - **Función:** *Controla la visibilidad de los ficheros no rastreados. Puede ser `no`, `normal`, o `all` para ajustar la cantidad de información mostrada sobre ficheros no rastreados.*
+   - **Uso:** *Para ajustar cómo se muestran los ficheros no rastreados en el estado.*
    - **Ejemplo:**
 
      ```bash
@@ -230,8 +230,8 @@ git reflog
      ```
 
 4. **`--ignored`**
-   - **Función:** *Muestra archivos ignorados por `.gitignore` junto con el estado.*
-   - **Uso:** *Para ver también los archivos que están siendo ignorados en el directorio de trabajo.*
+   - **Función:** *Muestra ficheros ignorados por `.gitignore` junto con el estado.*
+   - **Uso:** *Para ver también los ficheros que están siendo ignorados en el directorio de trabajo.*
    - **Ejemplo:**
 
      ```bash
@@ -240,7 +240,7 @@ git reflog
 
 5. **`--verbose`**
    - **Función:** *Muestra información más detallada sobre el estado del repositorio.*
-   - **Uso:** *Para obtener más detalles sobre los cambios y el estado de los archivos.*
+   - **Uso:** *Para obtener más detalles sobre los cambios y el estado de los ficheros.*
    - **Ejemplo:**
 
      ```bash

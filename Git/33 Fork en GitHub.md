@@ -12,7 +12,7 @@
 
 2. **Trabajar en tu Fork:**
 
-   - *Después de hacer un fork, puedes trabajar en tu copia del repositorio de la misma manera que lo harías con cualquier otro repositorio en GitHub. Puedes clonar tu fork en tu máquina local, realizar cambios, agregar archivos, hacer commits y push a tu fork.*
+   - *Después de hacer un fork, puedes trabajar en tu copia del repositorio de la misma manera que lo harías con cualquier otro repositorio en GitHub. Puedes clonar tu fork en tu máquina local, realizar cambios, agregar ficheros, hacer commits y push a tu fork.*
 
 3. **Mantener tu Fork Actualizado:**
 

@@ -4,7 +4,7 @@
 
 # ***"Repositorio personal"***
 
-> *Un repositorio personal en GitHub es un espacio donde puedes almacenar y gestionar tus propios proyectos de código fuente, documentos, archivos y más. Aquí tienes algunos pasos para crear y utilizar un repositorio personal en GitHub:*
+> *Un repositorio personal en GitHub es un espacio donde puedes almacenar y gestionar tus propios proyectos de código fuente, documentos, ficheros y más. Aquí tienes algunos pasos para crear y utilizar un repositorio personal en GitHub:*
 
 ---
 
@@ -19,8 +19,8 @@
 3. **Completa la información del repositorio:**
    *Ingresa un nombre para tu repositorio, una descripción opcional y elige si deseas que sea público o privado. Un repositorio público será visible para todos en GitHub, mientras que un repositorio privado solo será visible para ti y las personas que invites.*
 
-4. **Opcional: Inicializa el repositorio con un archivo README:**
-   *Puedes optar por inicializar el repositorio con un archivo `README.md`, que puede contener información sobre tu proyecto.*
+4. **Opcional: Inicializa el repositorio con un fichero README:**
+   *Puedes optar por inicializar el repositorio con un fichero `README.md`, que puede contener información sobre tu proyecto.*
 
 5. **Haz clic en "Create repository":**
    *Una vez que hayas completado la información del repositorio, haz clic en el botón "Create repository" para crearlo.*
@@ -33,12 +33,12 @@
 
 - **Clonar el repositorio:** *Utiliza el comando `git clone` para clonar tu repositorio en tu máquina local y comenzar a trabajar en él.*
 
-- **Agregar archivos:** *Agrega archivos a tu repositorio localmente y haz commits para guardar los cambios.*
+- **Agregar ficheros:** *Agrega ficheros a tu repositorio localmente y haz commits para guardar los cambios.*
 
 - **Enviar cambios a GitHub:** *Utiliza el comando `git push` para enviar tus cambios al repositorio remoto en GitHub.*
 
 - **Explorar características adicionales:** *Explora características adicionales de GitHub, como la creación de ramas, la colaboración con otros desarrolladores, la gestión de issues y pull requests, y más.*
 
-- **Mantén tu repositorio organizado:** *Utiliza carpetas y una estructura de archivos coherente para mantener tu repositorio organizado y fácil de navegar.*
+- **Mantén tu repositorio organizado:** *Utiliza directorios y una estructura de ficheros coherente para mantener tu repositorio organizado y fácil de navegar.*
 
-- *Tu repositorio personal en GitHub es un espacio para almacenar y gestionar tus proyectos de software y otros archivos relacionados con el desarrollo. Utilízalo para colaborar con otros desarrolladores, mostrar tu trabajo y contribuir a la comunidad de código abierto.*
+- *Tu repositorio personal en GitHub es un espacio para almacenar y gestionar tus proyectos de software y otros ficheros relacionados con el desarrollo. Utilízalo para colaborar con otros desarrolladores, mostrar tu trabajo y contribuir a la comunidad de código abierto.*

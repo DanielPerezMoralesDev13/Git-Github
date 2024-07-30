@@ -30,9 +30,9 @@ git init
 
 ---
 
-### ***3. Agrega los archivos al repositorio:***
+### ***3. Agrega los ficheros al repositorio:***
 
-> *Agrega los archivos de tu proyecto al área de preparación utilizando el comando `git add`. Por ejemplo, para agregar todos los archivos, puedes usar:*
+> *Agrega los ficheros de tu proyecto al área de preparación utilizando el comando `git add`. Por ejemplo, para agregar todos los ficheros, puedes usar:*
 
 ```bash
 git add .
@@ -42,7 +42,7 @@ git add .
 
 ### ***4. Realiza un commit de tus cambios:***
 
-> *Crea un commit con los archivos que has agregado al área de preparación utilizando el comando `git commit`. Incluye un mensaje descriptivo que explique los cambios que has realizado. Por ejemplo:*
+> *Crea un commit con los ficheros que has agregado al área de preparación utilizando el comando `git commit`. Incluye un mensaje descriptivo que explique los cambios que has realizado. Por ejemplo:*
 
 ```bash
 git commit -m "Initial commit"
@@ -76,6 +76,6 @@ git push -u origin main
 
 ### ***7. Verifica tu repositorio en GitHub:***
 
-> *Después de subir tus cambios, visita tu repositorio en GitHub para verificar que los archivos se hayan cargado correctamente.*
+> *Después de subir tus cambios, visita tu repositorio en GitHub para verificar que los ficheros se hayan cargado correctamente.*
 
 - *¡Listo! Tu proyecto ahora está en GitHub y puedes compartirlo con otros colaboradores, seguir su progreso y realizar un seguimiento de las versiones utilizando Git y GitHub.*
